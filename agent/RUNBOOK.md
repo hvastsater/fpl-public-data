@@ -9,7 +9,7 @@ https://fantasy.premierleague.com/help/terms
 Public accessibility is not a licence. Do not run or expand collect.py until
 written permission or a properly licensed replacement is documented.
 The owner approved the pause on 2026-10-20. PR #1 was merged and the refresh
-job is now gated off. The three analysis Tasks remain enabled.
+job is now gated off. The combined FPL-agent task remains enabled; the two redundant Tasks are paused.
 Do not use a mirror as a workaround for extraction restrictions.
 Use user-supplied material and permitted published editorial research meanwhile.
 Do not publish raw licensed datasets or private account information here.
@@ -52,7 +52,13 @@ players, 2 GK/5 DEF/5 MID/3 FWD, max 3 per club, legal XI, costs and selling val
 Conditional advice is not unconditional GO.
 
 ## Scheduling and notifications
-Retain the three existing Tasks. Pre-analysis is due at 18–30h before deadline;
+Use one combined hourly condition-watch Task: FPL-agent – hela GW-cykeln
+(id 6ac4ccb3a74c8191a73637927f0d3d5b). On the owner's request, the previous
+pre-analysis and post-analysis Tasks were paused on 2026-10-20 after the combined
+configuration was read back and verified. This is configuration verification,
+not proof of a successful future scheduled run. Keep phase-specific delivery keys.
+Prioritize a due final decision over other phases; combine reports if appropriate.
+A blocked post-analysis must not block the next pre-analysis or final call. Pre-analysis is due at 18–30h before deadline;
 final at 1–2h. On a delayed final run inside 1h, send a clearly late update once
 if still useful and before deadline. Never send GO after deadline.
 After-analysis requires both finished and data_checked, not merely last kickoff.
