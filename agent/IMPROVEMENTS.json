@@ -1,0 +1,51 @@
+{
+  "updated_at": "2026-10-20",
+  "policy": "Improve during the existing combined task, not a new automation. No claim of continuous background work between runs.",
+  "priorities": [
+    {
+      "id": "P1-data-access",
+      "status": "blocked",
+      "goal": "Verify a permitted current source for squad/rivals; test own-projection provider API. No raw FPL scraping or mirrors as workaround.",
+      "next": "Check provider permissions and actual read access before suggesting integration.",
+      "user_action": "None until a specific useful connector is verified."
+    },
+    {
+      "id": "P2-first-run",
+      "status": "pending",
+      "goal": "Observe combined task reading latest confirmed team, prior decisions, writing memory and deduplicating delivery.",
+      "next": "Record evidence from actual next run, not configuration readback."
+    },
+    {
+      "id": "P3-package-comparison",
+      "status": "implemented_offline",
+      "goal": "Compare legal affordable packages against ROLL, hits and sourced forecasts.",
+      "tests": "5 pass; does not produce forecasts, apply chips or infer sale prices.",
+      "next": "Use only same-horizon independent forecast inputs; test missing model and club/position gates before production decision dependence."
+    },
+    {
+      "id": "P4-actual-execution",
+      "status": "partial",
+      "goal": "Maintain verified baseline and explicit user-confirmed changes with minimal questions.",
+      "next": "Append confirmations, never infer from silence; derive bank/FT only with verified rules and prices."
+    },
+    {
+      "id": "P5-evaluation",
+      "status": "partial",
+      "goal": "Evaluate final scores, rivals and frozen alternatives; calibrate forecast quality.",
+      "next": "Obtain permitted finalized same-GW data; autosubs/captain fallback still require resolution."
+    }
+  ],
+  "team_focus": [
+    "GW8: verified 2 FT, £0.2m; evaluate ROLL before spending transfers.",
+    "Monitor Haaland using fresh official club reports; no medical inference from stale flag.",
+    "Compare Xhaka upgrades over 3–8 GW with financing costs and minutes.",
+    "Prioritize nearby rivals and controlled variance; no aggressive Theo chase."
+  ],
+  "guardrails": [
+    "No paid service without approval.",
+    "No FPL account changes or sensitive credential requests.",
+    "No disabling functioning automation without approval.",
+    "Do not let engineering delay deadline analysis.",
+    "No routine engineering notifications; summarize meaningful changes in normal weekly report."
+  ]
+}
