@@ -8,7 +8,8 @@ The 2026-10-20 review found FPL terms prohibiting automated extraction:
 https://fantasy.premierleague.com/help/terms
 Public accessibility is not a licence. Do not run or expand collect.py until
 written permission or a properly licensed replacement is documented.
-The existing workflow is unchanged pending the owner's approval to pause it.
+The owner approved the pause on 2026-10-20. PR #1 was merged and the refresh
+job is now gated off. The three analysis Tasks remain enabled.
 Do not use a mirror as a workaround for extraction restrictions.
 Use user-supplied material and permitted published editorial research meanwhile.
 Do not publish raw licensed datasets or private account information here.
@@ -86,3 +87,25 @@ GitHub write or notification has yet been observed. No permitted replacement
 feed, calibrated projection model or fully automated counterfactual simulator
 is configured. This is a guarded decision/evaluation foundation, not a finished
 autonomous data service.
+
+## Low-effort team continuity (20 October update)
+Do not request a weekly screenshot by default. Maintain the last explicitly
+confirmed squad and an append-only execution log. A user reply 'gjort' confirms
+only the unambiguous latest exact recommendation; never assume a recommendation
+was executed from silence. If multiple alternatives exist, clarify which one.
+Carry forward unchanged players and track confirmed transfers/chips. FT and bank
+may be derived only from a verified baseline, confirmed execution, exact selling
+prices and verified current season rules; label derived versus observed values.
+Ask a short text question only when missing state changes the recommendation.
+A screenshot is optional fallback for a contradiction, not the weekly workflow.
+This does not solve automatic fresh rival squads or verify unreported transfers.
+
+FPL Cat is a candidate independent projections source. Its developer page and
+terms explicitly allow personal API use: https://fplcat.com/developers and
+https://fplcat.com/terms (reviewed 2026-10-20). Use its own forecasts with attribution,
+not as an FPL raw-data mirror or proof of current user holdings. The API URL read
+failed in this session, so integration is not yet tested or configured.
+Plugin discovery found no relevant FPL plugin; this is not an exhaustive claim
+about the directory. Play Index advertises read-only squad and league tools, but
+source permissions and available access have not been verified; do not connect
+or recommend it as an approved solution yet.
