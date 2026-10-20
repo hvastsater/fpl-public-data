@@ -115,3 +115,18 @@ Plugin discovery found no relevant FPL plugin; this is not an exhaustive claim
 about the directory. Play Index advertises read-only squad and league tools, but
 source permissions and available access have not been verified; do not connect
 or recommend it as an approved solution yet.
+
+## Ongoing improvement mandate
+The owner authorized ongoing self-directed improvements on 2026-10-20.
+Read agent/IMPROVEMENTS.json. During the existing task, prioritize due analyses.
+At most once per local day, if no deadline report is due within 3 hours, advance
+one small high-value improvement and record evidence/next step. Research source
+permissions and test actual access before suggesting plugins. Never claim to work
+between scheduled runs. Do not create new automations or paid services. Ask only
+for concrete required connections, costs, credentials or decommissioning approval.
+Use scripts/compare_packages.py offline for budget, composition and hit comparison;
+all prices are integer tenths. Supply explicit verified season rules and sourced
+same-horizon forecast gains. The tool does not generate projections or simulate
+chips, autosubs, future FT accrual or transfer flexibility. Missing values stay unknown.
+Persist tool changes only after appropriate tests; do not compromise existing runs.
+Mention meaningful system changes inside the weekly report, not separate routine alerts.
