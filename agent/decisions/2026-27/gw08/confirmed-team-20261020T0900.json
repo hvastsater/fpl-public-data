@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-20T09:00:00+02:00",
+  "source": "User-supplied FPL Transfers screenshot, received 2026-10-20 09:01 Europe/Stockholm",
+  "entry_id": 6273717,
+  "gameweek": 8,
+  "free_transfers": 2,
+  "bank_gbp_m": 0.2,
+  "displayed_transfer_cost": 0,
+  "deadline_displayed_local": "2026-10-23T19:30:00+02:00",
+  "chips_visible_available": [
+    "wildcard",
+    "freehit"
+  ],
+  "squad": [
+    {
+      "name": "Verbruggen",
+      "element_id": 109,
+      "displayed_transfer_screen_price_gbp_m": 4.5,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Kinsky",
+      "element_id": 496,
+      "displayed_transfer_screen_price_gbp_m": 4.5,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Gabriel",
+      "element_id": 4,
+      "displayed_transfer_screen_price_gbp_m": 7.9,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Calafiori",
+      "element_id": 8,
+      "displayed_transfer_screen_price_gbp_m": 5.8,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Muharemović",
+      "element_id": 334,
+      "displayed_transfer_screen_price_gbp_m": 5,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Thiaw",
+      "element_id": 445,
+      "displayed_transfer_screen_price_gbp_m": 5,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Maguire",
+      "element_id": 418,
+      "displayed_transfer_screen_price_gbp_m": 4.8,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Saka",
+      "element_id": 12,
+      "displayed_transfer_screen_price_gbp_m": 9.6,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Mbeumo",
+      "element_id": 427,
+      "displayed_transfer_screen_price_gbp_m": 7.8,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Groß",
+      "element_id": 124,
+      "displayed_transfer_screen_price_gbp_m": 5.8,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Xhaka",
+      "element_id": 544,
+      "displayed_transfer_screen_price_gbp_m": 5.4,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Slater",
+      "element_id": 290,
+      "displayed_transfer_screen_price_gbp_m": 4.5,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Haaland",
+      "element_id": 411,
+      "displayed_transfer_screen_price_gbp_m": 15.6,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "João Pedro",
+      "element_id": 165,
+      "displayed_transfer_screen_price_gbp_m": 7.7,
+      "id_source": "Mapped to prior repository snapshot"
+    },
+    {
+      "name": "Calvert-Lewin",
+      "element_id": 346,
+      "displayed_transfer_screen_price_gbp_m": 6,
+      "id_source": "Mapped to prior repository snapshot"
+    }
+  ],
+  "notes": [
+    "Squad membership matches stored GW6 squad; does not prove no intervening transfers.",
+    "Screenshot is Transfers view; does not establish starting XI, bench order or captain.",
+    "Displayed prices transcribed exactly; do not substitute market prices for sale proceeds. Confirm price semantics if essential to package affordability.",
+    "Haaland shows a warning flag; image does not establish precise medical status.",
+    "No weekly screenshot required; carry confirmed baseline forward, and record only explicitly confirmed execution."
+  ]
+}
