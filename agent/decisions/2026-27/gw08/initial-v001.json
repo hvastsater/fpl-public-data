@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "preliminary",
+  "revision": 1,
+  "created_at_utc": "2026-10-20T06:33:06Z",
+  "status": "blocked_pending_verification",
+  "entry_id": 6273717,
+  "league_id": 1286090,
+  "source_snapshot": "docs/latest.json@a74358ea2e43f9a1b2046d4b72927a87dac59b62",
+  "source_generated_at_utc": "2026-10-20T04:54:55.480648+00:00",
+  "deadline_utc": "2026-10-23T17:30:00Z",
+  "deadline_verification": "snapshot_only",
+  "facts": [
+    "Snapshot combines GW7 standings/history with GW6 picks.",
+    "Current bank, FT and pre-deadline changes are not verified."
+  ],
+  "assumptions": [],
+  "uncertainties": [
+    "Automated extraction permission unresolved",
+    "Haaland fitness",
+    "GW7 squad",
+    "Current FT and selling prices"
+  ],
+  "recommendation": {
+    "action": "WAIT",
+    "transfers": [],
+    "starting_xi": null,
+    "bench_order": null,
+    "bench_goalkeeper": null,
+    "captain": null,
+    "vice_captain": null,
+    "chip": null,
+    "expected_points": null,
+    "model": null,
+    "risk": "controlled",
+    "rationale": "Preserve flexibility until current squad and injury information are verified."
+  },
+  "alternatives": [
+    {
+      "id": "roll",
+      "transfers": [],
+      "expected_points": null,
+      "transfer_cost": 0,
+      "rationale": "Baseline option; retain transfer flexibility."
+    },
+    {
+      "id": "upgrade_xhaka",
+      "transfers": null,
+      "expected_points": null,
+      "transfer_cost": null,
+      "rationale": "Explore only after budget and minutes validation."
+    }
+  ],
+  "actual_execution": {
+    "status": "unknown",
+    "transfers": null,
+    "picks": null,
+    "confirmed_at": null
+  },
+  "horizon_gameweeks": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/hvastsater/fpl-public-data/blob/main/docs/latest.json",
+      "type": "existing_snapshot",
+      "retrieved_at": "2026-10-20"
+    }
+  ],
+  "delivery": {
+    "status": "not_sent",
+    "note": "Initial technical assessment; does not suppress scheduled pre-deadline analysis."
+  }
+}
