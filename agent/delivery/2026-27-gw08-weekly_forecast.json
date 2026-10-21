@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "weekly_forecast",
+  "decision_file": "agent/decisions/2026-27/gw08/weekly-forecast-v001.json",
+  "status": "delivered_in_chat",
+  "verified_at": "2026-10-21T10:23:00+02:00",
+  "evidence": "Earlier assistant final response in the current conversation headed 'GW8 – veckoprognos', containing ROLL, 2 FT, £0.2m, GW8 deadline and preliminary XI; response appears in chat prior to this scheduled follow-up.",
+  "scope": "user-visible chat response only; push notification receipt is not independently verified",
+  "resend_policy": "Do not resend this phase absent a material correction",
+  "notes": [
+    "GW7 post-analysis remains blocked pending officially checked final matching-GW data.",
+    "GW8 day-before and final-decision phases remain separately due."
+  ]
+}
