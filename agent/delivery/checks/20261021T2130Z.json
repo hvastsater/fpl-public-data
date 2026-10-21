@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-10-21T21:26:37Z",
+  "season": "2026-27",
+  "gameweek": 8,
+  "requested_status": "fulfilled in prior marked final",
+  "saka_alert": "Delivered final verified in chat; no duplicate",
+  "news": {
+    "result": "No new verified diagnosis, absence duration or Everton availability found in post-match search; no change to WAIT and provisional Haaland/Mbeumo captaincy.",
+    "sources": [
+      "https://thefalse9.com/2026/10/saka-injury-update-bayern.html",
+      "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report"
+    ],
+    "official_arsenal_medical_update_found": false
+  },
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "publication_date": "2026-10-21",
+    "method": "Fresh official editorial search text explicitly states GW8 deadline 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before_target": "2026-10-22T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "post_review": "No new permitted matching officially finalized GW7 data obtained",
+  "improvement": "Already attempted today; no additional attempt",
+  "report_due": false,
+  "notification": "no_material_update"
+}
