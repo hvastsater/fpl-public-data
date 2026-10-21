@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "requested_status",
+  "report_id": "status-deadline-20261021-retry1",
+  "decision_file": "agent/decisions/2026-27/gw08/status-deadline-20261021-retry1-v002.json",
+  "verified_at_utc": "2026-10-21 15:33:18 UTC",
+  "status": "final_response_present_in_chat_history",
+  "evidence": "Previous assistant final in this thread starts FPL-status GW8, 21 oktober kl. 16:35 and ends Rapport-ID: status-deadline-20261021-retry1. Same full final is supplied in external conversation context.",
+  "push_receipt_verified": false,
+  "resend_policy": "One-off request complete. Do not resend absent material correction; preserve day-before/final/post-review phases.",
+  "latest_light_check": {
+    "checked_at_utc": "2026-10-21 15:33:18 UTC",
+    "official_deadline_url": "https://fantasy.premierleague.com/",
+    "fresh_official_verification": false,
+    "result": "zero readable lines",
+    "last_confirmed_deadline_utc": "2026-10-23T17:30:00Z",
+    "last_confirmed_deadline_stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before_target_stockholm": "2026-10-22T19:30:00+02:00",
+    "final_target_stockholm": "2026-10-23T17:30:00+02:00",
+    "deadline_corroboration": "Current Scout GW8 guide states Friday 23 October 18:30 BST; not substituted for official verification",
+    "price_source": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
+    "price_result": "21 October published changes do not include any confirmed squad player; no future price probability established",
+    "news_result": "No newly identified plan-changing item versus 16:35 report",
+    "review_status": "GW7 officially checked matching results still unavailable; no invented outcome",
+    "next_report_due": false
+  },
+  "improvement_note": "IMPROVEMENTS.json records an attempt today; no second daily improvement attempted."
+}
