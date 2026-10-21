@@ -3,14 +3,30 @@
   "season": "2026-27",
   "gameweek": 8,
   "phase": "weekly_forecast",
-  "decision_file": "agent/decisions/2026-27/gw08/weekly-forecast-v001.json",
-  "status": "delivered_in_chat",
-  "verified_at": "2026-10-21T10:23:00+02:00",
-  "evidence": "Earlier assistant final response in the current conversation headed 'GW8 – veckoprognos', containing ROLL, 2 FT, £0.2m, GW8 deadline and preliminary XI; response appears in chat prior to this scheduled follow-up.",
-  "scope": "user-visible chat response only; push notification receipt is not independently verified",
-  "resend_policy": "Do not resend this phase absent a material correction",
+  "decision_file": "agent/decisions/2026-27/gw08/weekly-forecast-v002.json",
+  "status": "delivered_in_chat_with_correction",
+  "verified_at": "2026-10-21T12:23:00+02:00",
+  "evidence": [
+    "Earlier assistant final response in the current conversation headed 'GW8 – veckoprognos', containing ROLL, 2 FT, £0.2m, GW8 deadline and preliminary XI.",
+    "Subsequent assistant final response explicitly corrected the chip inventory after the owner noted Triple Captain had already been used: Bench Boost GW1, Triple Captain GW3, Wildcard and Free Hit available."
+  ],
+  "scope": "User-visible chat responses only; push notification receipt is not independently verified.",
+  "resend_policy": "Do not resend weekly_forecast or its chip correction absent new material evidence.",
+  "revisions": [
+    {
+      "decision_file": "agent/decisions/2026-27/gw08/weekly-forecast-v001.json",
+      "delivery": "delivered",
+      "note": "Original weekly forecast; contained an incorrect generic statement about saving Triple Captain."
+    },
+    {
+      "decision_file": "agent/decisions/2026-27/gw08/weekly-forecast-v002.json",
+      "delivery": "delivered_correction",
+      "note": "Chip inventory corrected; ROLL recommendation unchanged."
+    }
+  ],
   "notes": [
     "GW7 post-analysis remains blocked pending officially checked final matching-GW data.",
-    "GW8 day-before and final-decision phases remain separately due."
+    "GW8 day-before and final-decision phases remain separately due.",
+    "Light recheck 2026-10-21 12:23 Europe/Stockholm found no new material plan-changing information; deadline still corroborated as Friday 23 October 18:30 BST / 19:30 CEST."
   ]
 }
