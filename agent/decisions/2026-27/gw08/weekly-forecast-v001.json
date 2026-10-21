@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "weekly_forecast",
+  "revision": 1,
+  "created_at_utc": "2026-10-21T08:17:08Z",
+  "status": "provisional_wait_for_team_news",
+  "entry_id": 6273717,
+  "league_id": 1286090,
+  "team_basis": {
+    "source": "agent/decisions/2026-27/gw08/confirmed-team-20261020T0900.json",
+    "observed_at": "2026-10-20T09:00:00+02:00",
+    "free_transfers": 2,
+    "bank_gbp_m": 0.2,
+    "players": 15,
+    "execution_since_baseline": null
+  },
+  "deadline": {
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "checked_at_utc": "2026-10-21T08:17:08Z",
+    "verification": [
+      "User-supplied official FPL Transfers screenshot on 2026-10-20 showed 19:30 Europe/Stockholm",
+      "FPLXI GW8 page updated 2026-10-21 07:00 UK shows 18:30 UK",
+      "Fantasy Football IQ and Statz GW8 pages checked 2026-10-21 show 18:30 UK"
+    ]
+  },
+  "facts": [
+    "Official Premier League 2026-27 rules allow up to five banked free transfers; rolling from 2 FT would produce 3 FT for GW9 if no transfer is made.",
+    "Haaland was an unused substitute in Manchester City's 5-1 Champions League win over AEK Athens on 20 October; the match report lists him on the bench.",
+    "Official FPL flag was reported cleared on 21 October, but Aston Villa press-conference confirmation is still pending.",
+    "Official Premier League price history shows Groß rose to 6.2 on 20 October, João Pedro to 7.9 on 19 October, Calafiori to 6.0 on 18 October and Haaland to 15.7 on 17 October.",
+    "No confirmed price change on 21 October affected the 15-player squad.",
+    "Current rival squads, predicted EO and nearest-rival captaincy are unavailable from a permitted matching-GW source."
+  ],
+  "model_outputs": [
+    {
+      "source": "FPLXI",
+      "updated": "2026-10-21T07:00:00+01:00",
+      "gw8": {
+        "Mbeumo": 7.0,
+        "Saka": 6.9,
+        "Joao Pedro": 5.6
+      },
+      "notes": "Independent model; Bruno Fernandes ranks first overall at 10.2 but is not owned."
+    },
+    {
+      "source": "Statz",
+      "checked": "2026-10-21",
+      "gw8": {
+        "Haaland": 6.3,
+        "Gabriel": 5.6
+      },
+      "team_projections": {
+        "Arsenal_goals": 2.0,
+        "Arsenal_clean_sheet_probability": 0.55,
+        "Manchester_City_goals": 1.9,
+        "Chelsea_goals": 1.9,
+        "Manchester_United_goals": 1.8
+      }
+    },
+    {
+      "source": "Fantasy Football IQ",
+      "updated": "2026-10-21",
+      "gw8": {
+        "Joao Pedro": 8.2,
+        "Haaland": 7.6,
+        "Neto": 5.5,
+        "Muharemovic": 4.5
+      },
+      "notes": "Full GW8 fifteen was not yet published; use as one model, not consensus."
+    }
+  ],
+  "recommendation": {
+    "action": "ROLL",
+    "transfers": [],
+    "transfer_cost": 0,
+    "free_transfers_after_deadline_if_rolled": 3,
+    "expected_points": null,
+    "risk": "controlled",
+    "confidence": "medium",
+    "rationale": "No affordable single transfer has a demonstrated multi-GW gain large enough to justify sacrificing the third free transfer before remaining European matches and press conferences. Xhaka to King is affordable at the confirmed 5.4 sale display plus 0.2 bank, but independent GW8 projections put King only around 3.4-3.9 versus Xhaka around 3.3, while King's GW9-13 run is mixed."
+  },
+  "alternatives": [
+    {
+      "id": "xhaka_to_king",
+      "transfers": [
+        {"out": "Xhaka", "in": "Josh King"}
+      ],
+      "affordability": "appears_exact_at_confirmed_displayed_sale_value",
+      "expected_points": null,
+      "transfer_cost": 0,
+      "verdict": "not_preferred",
+      "rationale": "Small projected GW8 gain and no strong six-GW edge; loses the option value of banking a third FT."
+    },
+    {
+      "id": "xhaka_to_tavernier_with_defender_downgrade",
+      "transfers": [
+        {"out": "Xhaka", "in": "Tavernier"},
+        {"out": "Maguire", "in": "budget_defender_tbd"}
+      ],
+      "affordability": "conditional_on_exact_sale_prices_and_target",
+      "expected_points": null,
+      "transfer_cost": 0,
+      "verdict": "watchlist_only",
+      "rationale": "Tavernier has a good GW9-13 run, but the financing downgrade may erase the gain and exact legal budget is not yet validated."
+    },
+    {
+      "id": "xhaka_to_neto_with_defender_downgrade",
+      "transfers": [
+        {"out": "Xhaka", "in": "Neto"},
+        {"out": "Maguire", "in": "3.9_defender_tbd"}
+      ],
+      "affordability": "conditional_and_tight",
+      "expected_points": null,
+      "transfer_cost": 0,
+      "verdict": "watchlist_only",
+      "rationale": "Chelsea's GW8-13 fixtures are attractive, but Neto carries competition and minutes risk; requires weakening defence."
+    }
+  ],
+  "provisional_team": {
+    "formation": "3-4-3",
+    "starting_xi": [
+      "Verbruggen",
+      "Gabriel",
+      "Calafiori",
+      "Maguire",
+      "Saka",
+      "Mbeumo",
+      "Gross",
+      "Xhaka",
+      "Haaland",
+      "Joao Pedro",
+      "Calvert-Lewin"
+    ],
+    "bench_goalkeeper": "Kinsky",
+    "bench_order": [
+      "Muharemovic",
+      "Thiaw",
+      "Slater"
+    ],
+    "captain": "Saka",
+    "vice_captain": "Haaland",
+    "chip": "none",
+    "notes": [
+      "Captaincy remains open: FPLXI favours Mbeumo/Saka among owned players, Fantasy Football IQ favours Joao Pedro, and Statz favours Haaland.",
+      "Muharemovic versus Maguire is a live marginal selection call; fresh team news and final projections decide it.",
+      "No unconditional GO is issued in the weekly-forecast phase."
+    ]
+  },
+  "horizon_plan": [
+    "GW8: preserve 2 FT unless press conferences reveal a real absence or price event changes affordability.",
+    "GW9: with 3 FT, reassess Chelsea investment and the Xhaka slot; do not sell Arsenal assets reactively before Hull at home in GW10.",
+    "GW10-11: Arsenal host Hull in GW10; Chelsea face Sunderland away then Leeds at home; Brighton's fixtures improve after Liverpool and Manchester City away.",
+    "GW12-13: reassess Arsenal triple-up around Manchester City at home and preserve Haaland for Fulham home in GW11 and Leeds home in GW13 unless fitness changes.",
+    "No Wildcard, Free Hit, Bench Boost or Triple Captain is recommended for GW8; official strategy material identifies later stronger chip windows."
+  ],
+  "uncertainties": [
+    "Thursday/Friday press conferences and remaining European minutes",
+    "Verified predicted EO and current rival squads",
+    "Exact current sale values if a two-transfer package is considered",
+    "Current price-change probabilities for each owned player",
+    "Final starting probabilities for Maguire, Muharemovic and attacking captain candidates"
+  ],
+  "sources": [
+    {"url": "https://www.premierleague.com/en/news/4679873/all-you-need-to-know-about-changes-to-fpl-for-202627", "type": "official_rules", "retrieved_at": "2026-10-21"},
+    {"url": "https://www.mancity.com/news/mens/city-v-aek-athens-match-report-63928115", "type": "official_club_match_report", "retrieved_at": "2026-10-21"},
+    {"url": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8", "type": "official_price_history", "retrieved_at": "2026-10-21"},
+    {"url": "https://fplxi.com/gameweeks/8", "type": "independent_model", "retrieved_at": "2026-10-21"},
+    {"url": "https://statz.ai/fpl/gameweek/8", "type": "independent_model", "retrieved_at": "2026-10-21"},
+    {"url": "https://fantasyfootballiq.app/fpl-gameweek/", "type": "independent_model", "retrieved_at": "2026-10-21"},
+    {"url": "https://fpl.page/price-changes", "type": "published_price_history", "retrieved_at": "2026-10-21"}
+  ],
+  "actual_execution": {
+    "status": "unknown",
+    "transfers": null,
+    "picks": null,
+    "confirmed_at": null
+  },
+  "delivery": {
+    "status": "pending",
+    "note": "Do not create a completed delivery record until user-facing delivery is confirmed."
+  }
+}
