@@ -1,19 +1,17 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "policy": "Improve during the existing combined task, not a new automation. No claim of continuous background work between runs.",
   "last_attempt": {
-    "started_at": "2026-10-21T10:17:08+02:00",
-    "selected_task": "P2-first-run",
+    "started_at": "2026-10-22T00:29:37+02:00",
+    "selected_task": "P2-delivery-evidence-reconciliation",
     "completed": [
-      "Read agent/RUNBOOK.md and agent/IMPROVEMENTS.json.",
-      "Read the confirmed GW8 team baseline and all existing GW8 decision files.",
-      "Checked the delivery path; agent/delivery did not yet exist.",
-      "Verified the GW8 deadline against the user-supplied official FPL screenshot plus current published model pages.",
-      "Created agent/decisions/2026-27/gw08/weekly-forecast-v001.json in commit ebc4989bedeec3cba604f5f60c0432d8aa803b85."
+      "Compared prior final responses with stored requested-status and Saka-alert delivery records.",
+      "Confirmed both finals are present in own chat history and external conversation context.",
+      "Corrected stale P2 record that said delivery remained wholly pending; no notification receipt inferred."
     ],
-    "verification": "GitHub create_file returned commit SHA ebc4989bedeec3cba604f5f60c0432d8aa803b85. User-facing delivery is still pending and is not counted as confirmed.",
-    "blocker": "Exact end-to-end notification delivery cannot be proven inside the same run before the response is delivered.",
-    "next_step": "On the next run, inspect chat delivery history before creating a phase delivery record; verify deduplication and do not resend weekly_forecast unless there is a material correction."
+    "verification": "Both dedicated delivery files read successfully and match the report ID/event and final response contents. JSON parse and required evidence checks passed.",
+    "blocker": "Push notification receipt remains unobservable; no claim of receipt by user.",
+    "next_step": "Verify distinct day-before/final records after those reports exist; do not repeat status or substitution alert."
   },
   "priorities": [
     {
@@ -25,10 +23,10 @@
     },
     {
       "id": "P2-first-run",
-      "status": "partial_observed",
+      "status": "chat_delivery_observed",
       "goal": "Observe combined task reading latest confirmed team, prior decisions, writing memory and deduplicating delivery.",
-      "evidence": "2026-10-21 run read the latest confirmed team and prior decisions and wrote weekly-forecast-v001.json. Delivery confirmation remains pending.",
-      "next": "On the next run, confirm the user-facing weekly forecast exists in chat history before writing a completed delivery record; verify that it is not duplicated."
+      "evidence": "Requested status final at 16:35 on 21 October and subsequent Saka injury alert are present in own and supplied chat history; dedicated delivery records exist. GitHub writes returned commit SHAs. Push receipt remains unverified.",
+      "next": "Preserve separate day-before/final phases and verify their chat finals later; do not infer push receipt."
     },
     {
       "id": "P3-package-comparison",
@@ -62,5 +60,19 @@
     "No disabling functioning automation without approval.",
     "Do not let engineering delay deadline analysis.",
     "No routine engineering notifications; summarize meaningful changes in normal weekly report."
-  ]
+  ],
+  "previous_attempt": {
+    "started_at": "2026-10-21T10:17:08+02:00",
+    "selected_task": "P2-first-run",
+    "completed": [
+      "Read agent/RUNBOOK.md and agent/IMPROVEMENTS.json.",
+      "Read the confirmed GW8 team baseline and all existing GW8 decision files.",
+      "Checked the delivery path; agent/delivery did not yet exist.",
+      "Verified the GW8 deadline against the user-supplied official FPL screenshot plus current published model pages.",
+      "Created agent/decisions/2026-27/gw08/weekly-forecast-v001.json in commit ebc4989bedeec3cba604f5f60c0432d8aa803b85."
+    ],
+    "verification": "GitHub create_file returned commit SHA ebc4989bedeec3cba604f5f60c0432d8aa803b85. User-facing delivery is still pending and is not counted as confirmed.",
+    "blocker": "Exact end-to-end notification delivery cannot be proven inside the same run before the response is delivered.",
+    "next_step": "On the next run, inspect chat delivery history before creating a phase delivery record; verify deduplication and do not resend weekly_forecast unless there is a material correction."
+  }
 }
