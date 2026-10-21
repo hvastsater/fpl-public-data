@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "injury_alert",
+  "revision": 1,
+  "event_key": "saka-bayern-injury-20261021",
+  "checked_at_utc": "2026-10-21 19:26:52 UTC",
+  "previous_decision": "status-deadline-20261021-retry1-v002.json",
+  "facts": [
+    {
+      "fact": "Saka replaced by Eze around minute 10 versus Bayern on 21 October after apparent injury",
+      "sources": [
+        "https://www.independent.co.uk/sport/football/bukayo-saka-injury-arsenal-bayern-munich-b3071006.html",
+        "https://www.standard.co.uk/sport/football/arsenal-fc-xi-vs-bayern-munich-starting-lineup-confirmed-team-news-injury-latest-2026-champions-league-today-b1301552.html"
+      ],
+      "published_at": "2026-10-21T20:18:00+01:00",
+      "diagnosis": null,
+      "absence_duration": null,
+      "official_medical_confirmation": null
+    }
+  ],
+  "recommendation": {
+    "action": "WAIT",
+    "transfers": [],
+    "hit": 0,
+    "unconditional_go": false,
+    "previous_roll_status": "conditional pending Saka assessment",
+    "captain": "Haaland provisionally, subject to latest fitness",
+    "vice": "Mbeumo provisionally",
+    "saka": "Do not captain while fitness unresolved; do not sell before severity news",
+    "short_absence_contingency": "If Saka ruled out GW8 only, compare benching him and starting Muharemović in a legal 4-3-3 with transfer alternatives.",
+    "long_absence_contingency": "Reassess Saka replacement before spending FT on Xhaka; exact sale values and current targets required",
+    "xP": null,
+    "actual_execution": null
+  },
+  "deadline": {
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "evidence": "Current search result from official PL editorial dated 21 October explicitly states 18:30 BST Friday 23 October",
+    "direct_fpl_ui": false
+  },
+  "strategy": "Preserve FT until injury severity known. Avoid original Xhaka upgrade consuming budget needed for possible Saka replacement. Short absence and longer absence require distinct decisions; no diagnosis assumed.",
+  "delivery": {
+    "status": "prepared_for_final_response",
+    "confirmed_delivered": false
+  }
+}
