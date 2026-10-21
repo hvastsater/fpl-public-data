@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "injury_alert",
+  "event_key": "saka-bayern-injury-20261021",
+  "decision_file": "agent/decisions/2026-27/gw08/injury-alert-saka-20261021-v001.json",
+  "verified_at_utc": "2026-10-21T20:35:54Z",
+  "status": "final_present_in_chat_history",
+  "evidence": "Previous final begins Viktig ändring: Saka har tvingats av skadad mot Bayern and changes provisional C/VC to Haaland/Mbeumo; also included in external conversation context.",
+  "push_receipt_verified": false,
+  "latest_check": {
+    "news": "Same early Saka substitution reported by additional sources; no new verified diagnosis, duration or Arteta medical assessment obtained. Do not treat knee/quad speculation as confirmed.",
+    "deadline": {
+      "source_url": "https://www.premierleague.com/en/news/4744058",
+      "checked_at_utc": "2026-10-21T20:35:54Z",
+      "verification_this_run": "Official article returned by search; extracted result lacks deadline text this time. Prior 20:30 check obtained explicit official editorial deadline. No conflicting current deadline found.",
+      "last_confirmed_utc": "2026-10-23T17:30:00Z",
+      "last_confirmed_stockholm": "2026-10-23T19:30:00+02:00",
+      "day_before_target": "2026-10-22T19:30:00+02:00",
+      "final_target": "2026-10-23T17:30:00+02:00"
+    },
+    "report_due": false,
+    "post_review": "No new finalized same-GW dataset obtained.",
+    "improvement": "Today's attempt already logged; no additional attempt."
+  },
+  "resend_policy": "Suppress repeat substitution alert. Notify only material confirmed development or due phase."
+}
