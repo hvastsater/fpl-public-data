@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "status-deadline-20261021-retry1",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "requested_status",
+  "checked_date_local": "2026-10-21",
+  "basis": "confirmed-team-20261020T0900.json",
+  "previous_forecast": "weekly-forecast-v002.json",
+  "free_transfers": 2,
+  "bank_gbp_m": 0.2,
+  "execution_since_baseline": null,
+  "deadline": {
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "fresh_official_verification": false,
+    "evidence": "User screenshot 20 October; corroborated today by FPLXI, Statz and FFIQ. Official homepage returned zero readable lines."
+  },
+  "recommendation": {
+    "action": "ROLL",
+    "transfers": [],
+    "hit": 0,
+    "expected_points": null,
+    "unconditional_go": false,
+    "formation": "3-4-3",
+    "starting_xi": [
+      "Verbruggen",
+      "Gabriel",
+      "Calafiori",
+      "Maguire",
+      "Saka",
+      "Mbeumo",
+      "Groß",
+      "Xhaka",
+      "Haaland",
+      "João Pedro",
+      "Calvert-Lewin"
+    ],
+    "bench_goalkeeper": "Kinsky",
+    "bench_order": [
+      "Muharemović",
+      "Thiaw",
+      "Slater"
+    ],
+    "captain": "Saka",
+    "vice_captain": "Haaland",
+    "chip": "none",
+    "contingency": "Maguire vs Muharemovic unresolved; if Haaland ruled out for GW8 only consider bench with Muharemovic entering, do not automatically sell; long absence requires new budgeted comparison."
+  },
+  "alternatives": [
+    {
+      "action": "Xhaka to Josh King",
+      "status": "not_preferred_pending_current_prices",
+      "expected_points": null
+    },
+    {
+      "action": "Xhaka to Tavernier plus defender downgrade",
+      "status": "watchlist_unvalidated_budget",
+      "expected_points": null
+    },
+    {
+      "action": "Xhaka to Neto plus defender downgrade",
+      "status": "watchlist_unvalidated_budget",
+      "expected_points": null
+    }
+  ],
+  "chip_inventory": {
+    "bench_boost": "used_GW1",
+    "triple_captain": "used_GW3",
+    "wildcard": "available_as_of_20_October",
+    "free_hit": "available_as_of_20_October"
+  },
+  "strategy": "Retain core and free transfers; reassess Xhaka/defence funding GW9; reassess Chelsea and Arsenal over GW9-13 using fresh fixtures and prices; no aggressive Theo chase.",
+  "sources_checked": [
+    "https://fplxi.com/gameweeks/8",
+    "https://statz.ai/fpl/gameweek/8",
+    "https://fantasyfootballiq.app/fpl-gameweek/",
+    "https://www.mancity.com/news/mens/city-v-aek-athens-match-report-63928115",
+    "https://www.premierleague.com/en/news/4679873/all-you-need-to-know-about-changes-to-fpl-for-202627"
+  ],
+  "limitations": [
+    "fresh official deadline not readable",
+    "no verified current sale prices or price probabilities",
+    "no matching GW rival/EO source",
+    "remaining press conferences and minutes uncertainty",
+    "no full comparable squad xP"
+  ],
+  "delivery": {
+    "status": "prepared_for_final_response_not_yet_confirmed",
+    "report_id": "status-deadline-20261021-retry1"
+  }
+}
