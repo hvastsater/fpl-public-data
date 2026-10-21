@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "updated_date": "2026-10-21",
+  "purpose": "Verified chip eligibility for personalized FPL advice; never infer chip availability from general strategy pages.",
+  "rules": {
+    "first_half": "GW1-GW19",
+    "second_half": "GW20-GW38",
+    "one_chip_per_gameweek": true,
+    "source": "https://www.premierleague.com/en/news/4679879/whats-happening-with-fpl-chips-in-202627"
+  },
+  "first_half": {
+    "bench_boost": {
+      "status": "used",
+      "gw": 1,
+      "source": "previously collected FPL entry chip history bboost"
+    },
+    "triple_captain": {
+      "status": "used",
+      "gw": 3,
+      "source": "previously collected FPL entry chip history 3xc; user reconfirmed 2026-10-21"
+    },
+    "wildcard": {
+      "status": "available_as_of_2026-10-20",
+      "source": "user-provided transfers screenshot"
+    },
+    "free_hit": {
+      "status": "available_as_of_2026-10-20",
+      "source": "user-provided transfers screenshot"
+    }
+  },
+  "second_half": {
+    "wildcard": {
+      "status": "not_yet_available",
+      "available_from_gw": 20
+    },
+    "free_hit": {
+      "status": "not_yet_available",
+      "available_from_gw": 20
+    },
+    "bench_boost": {
+      "status": "not_yet_available",
+      "available_from_gw": 20
+    },
+    "triple_captain": {
+      "status": "not_yet_available",
+      "available_from_gw": 20
+    }
+  },
+  "guardrail": "Check this inventory and later explicit user-provided confirmations before all chip recommendations. Never suggest first-half BB or TC from GW8 to GW19."
+}
