@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-21T22:29:37Z",
+  "local_date": "2026-10-22",
+  "gameweek": 8,
+  "requested_status": "already fulfilled",
+  "saka_alert": "already delivered",
+  "news": "Search reports Arteta concerned and assessment ongoing, but full article inaccessible. No verified duration/diagnosis or changed action; retain WAIT, provisional Haaland C/Mbeumo VC.",
+  "news_source": "https://talksport.com/football/4658780/bukayo-saka-injury-arsenal-bayern-munich/",
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "method": "Fresh official editorial search excerpt dated 21 October explicitly states GW8 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before_target": "2026-10-22T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "post_review": "No new permitted matching finalized result data",
+  "report_due": false,
+  "notification": "no_material_update"
+}
