@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "policy": "Improve during the existing combined task, not a new automation. No claim of continuous background work between runs.",
+  "last_attempt": {
+    "started_at": "2026-10-21T10:17:08+02:00",
+    "selected_task": "P2-first-run",
+    "completed": [
+      "Read agent/RUNBOOK.md and agent/IMPROVEMENTS.json.",
+      "Read the confirmed GW8 team baseline and all existing GW8 decision files.",
+      "Checked the delivery path; agent/delivery did not yet exist.",
+      "Verified the GW8 deadline against the user-supplied official FPL screenshot plus current published model pages.",
+      "Created agent/decisions/2026-27/gw08/weekly-forecast-v001.json in commit ebc4989bedeec3cba604f5f60c0432d8aa803b85."
+    ],
+    "verification": "GitHub create_file returned commit SHA ebc4989bedeec3cba604f5f60c0432d8aa803b85. User-facing delivery is still pending and is not counted as confirmed.",
+    "blocker": "Exact end-to-end notification delivery cannot be proven inside the same run before the response is delivered.",
+    "next_step": "On the next run, inspect chat delivery history before creating a phase delivery record; verify deduplication and do not resend weekly_forecast unless there is a material correction."
+  },
   "priorities": [
     {
       "id": "P1-data-access",
@@ -11,9 +25,10 @@
     },
     {
       "id": "P2-first-run",
-      "status": "pending",
+      "status": "partial_observed",
       "goal": "Observe combined task reading latest confirmed team, prior decisions, writing memory and deduplicating delivery.",
-      "next": "Record evidence from actual next run, not configuration readback."
+      "evidence": "2026-10-21 run read the latest confirmed team and prior decisions and wrote weekly-forecast-v001.json. Delivery confirmation remains pending.",
+      "next": "On the next run, confirm the user-facing weekly forecast exists in chat history before writing a completed delivery record; verify that it is not duplicated."
     },
     {
       "id": "P3-package-comparison",
@@ -36,9 +51,9 @@
     }
   ],
   "team_focus": [
-    "GW8: verified 2 FT, £0.2m; evaluate ROLL before spending transfers.",
-    "Monitor Haaland using fresh official club reports; no medical inference from stale flag.",
-    "Compare Xhaka upgrades over 3–8 GW with financing costs and minutes.",
+    "GW8: verified 2 FT, £0.2m; ROLL is the provisional weekly-forecast recommendation.",
+    "Haaland was an unused Champions League substitute on 20 October and his FPL flag was reported cleared; still verify the final club press conference.",
+    "Compare Xhaka upgrades over 3–8 GW with financing costs and minutes; Xhaka to King currently shows too little modelled gain to beat ROLL.",
     "Prioritize nearby rivals and controlled variance; no aggressive Theo chase."
   ],
   "guardrails": [
