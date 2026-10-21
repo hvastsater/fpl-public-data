@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "status-deadline-20261021-retry1",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "requested_status",
+  "revision": 2,
+  "checked_at_utc": "2026-10-21 14:35:32 UTC",
+  "supersedes": "status-deadline-20261021-retry1-v001.json",
+  "basis": "confirmed-team-20261020T0900.json",
+  "free_transfers_observed": 2,
+  "bank_gbp_m_observed": 0.2,
+  "observed_at": "2026-10-20T09:00:00+02:00",
+  "actual_execution": null,
+  "deadline": {
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "fresh_official_verification": false,
+    "official_url": "https://fantasy.premierleague.com/",
+    "result": "zero readable lines",
+    "corroboration": [
+      "User official screenshot 20 October",
+      "FPLXI updated 21 October 07:00 UK",
+      "Statz GW8",
+      "FFIQ updated 21 October"
+    ]
+  },
+  "recommendation": {
+    "action": "ROLL",
+    "transfers": [],
+    "hit": 0,
+    "xP": null,
+    "unconditional_go": false,
+    "formation": "3-4-3",
+    "xi": [
+      "Verbruggen",
+      "Gabriel",
+      "Calafiori",
+      "Maguire",
+      "Saka",
+      "Mbeumo",
+      "Groß",
+      "Xhaka",
+      "Haaland",
+      "João Pedro",
+      "Calvert-Lewin"
+    ],
+    "bench_gk": "Kinsky",
+    "bench": [
+      "Muharemović",
+      "Thiaw",
+      "Slater"
+    ],
+    "captain": "Saka",
+    "vice": "Haaland",
+    "chip": "none",
+    "contingency": "If Haaland has a confirmed short absence, consider bench and Muharemović replacing him; longer absence requires new budgeted analysis. Maguire versus Muharemović remains provisional."
+  },
+  "news": [
+    {
+      "fact": "Haaland was an unused substitute versus AEK on 20 October",
+      "source": "https://www.mancity.com/news/mens/city-v-aek-athens-match-report-63928115"
+    },
+    {
+      "fact": "Scout report published 21 October quotes Maresca saying Haaland is okay to start Saturday",
+      "source": "https://www.fantasyfootballscout.co.uk/2026/10/21/fpl-notes-haaland-ok-to-start-key-rests-gvardiol-injury-update/",
+      "status": "reported coach quote, not guaranteed XI"
+    }
+  ],
+  "models": [
+    {
+      "source": "FPLXI",
+      "updated": "2026-10-21T07:00:00+01:00",
+      "Saka": 6.9,
+      "Mbeumo": 7,
+      "JoaoPedro": 5.6
+    },
+    {
+      "source": "Statz",
+      "Haaland": 6.27,
+      "publication_time": null
+    },
+    {
+      "source": "FFIQ",
+      "updated": "2026-10-21",
+      "JoaoPedro": 8.2,
+      "Haaland": 7.6
+    }
+  ],
+  "model_note": "No captain consensus; not averaged into calibrated xP.",
+  "alternatives": [
+    {
+      "transfers": "Xhaka to Josh King",
+      "status": "not preferred; current price and sale semantics unverified",
+      "xP": null
+    },
+    {
+      "transfers": "Xhaka to Tavernier plus defender downgrade",
+      "status": "watchlist; exact funding player and affordability unverified",
+      "xP": null
+    },
+    {
+      "transfers": "Xhaka to Neto plus defender downgrade",
+      "status": "watchlist; budget and minutes risk unverified",
+      "xP": null
+    }
+  ],
+  "chip_inventory": {
+    "bench_boost": "used GW1",
+    "triple_captain": "used GW3",
+    "wildcard": "available as of 20 October",
+    "free_hit": "available as of 20 October"
+  },
+  "strategy": "Keep core and transfers. GW9 reassess Xhaka and financing with up to 3FT if rolled and no unreported execution. GW10-13 test fixture swings before reallocation; GW14-15 remain uncommitted absent fresh horizon models. Do not chase Theo solely on rank.",
+  "limitations": [
+    "Fresh official deadline unreadable",
+    "Current sale prices and price probabilities unavailable",
+    "No matching GW rival squads/EO",
+    "Remaining press conferences and Maguire/Muharemovic minutes unresolved",
+    "No comparable full squad xP"
+  ],
+  "delivery": {
+    "status": "prepared_for_this_final_response",
+    "confirmed_delivered": false,
+    "note": "Do not count GitHub write as proof of user-visible delivery. Earlier report was reproduced in external chat, but this run has an explicit report request."
+  }
+}
