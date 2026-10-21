@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-21 17:31:57 UTC",
+  "season": "2026-27",
+  "gameweek": 8,
+  "report_id": "status-deadline-20261021-retry1",
+  "requested_status": "already present in chat; not resent",
+  "deadline": {
+    "fresh_direct_official_verification": false,
+    "last_confirmed_utc": "2026-10-23T17:30:00Z",
+    "last_confirmed_stockholm": "2026-10-23T19:30:00+02:00",
+    "attempts": [
+      {
+        "url": "https://fantasy.premierleague.com/",
+        "result": "zero readable lines"
+      },
+      {
+        "url": "https://fantasy.premierleague.com/en/help/rules",
+        "result": "Search snippet shows GW8 Fri 23 Oct 10:30 in unspecified local timezone; direct open zero readable lines; cannot infer UTC from snippet"
+      },
+      {
+        "url": "https://fantasy.premierleague.com/en/fixtures/8",
+        "result": "Search snippet shows GW8 23-25 Oct; direct open zero readable lines"
+      },
+      {
+        "url": "https://www.tottenhamhotspur.com/news/1179466/fpl-spurs-gameweek-8-preview",
+        "result": "Search snippet states Friday 23 October 6.30 UK; direct open not accessible"
+      }
+    ],
+    "day_before_target": "2026-10-22T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "news_result": "Light search found no new verified plan-changing news versus delivered 16:35 report. New PL expert article inaccessible; no conclusions inferred.",
+  "price_source": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
+  "price_result": "Same 21 October published changes; no new known squad price event",
+  "post_review": "No new matching officially checked GW7 dataset obtained; remains unresolved",
+  "report_due": false,
+  "improvement": "Existing daily attempt already logged; no second attempt",
+  "notification": "no_material_update"
+}
