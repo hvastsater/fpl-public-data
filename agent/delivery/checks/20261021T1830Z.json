@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-21 18:29:47 UTC",
+  "season": "2026-27",
+  "gameweek": 8,
+  "report_due": false,
+  "requested_status": "Completed; marked final exists in own and supplied chat history",
+  "deadline": {
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "official_editorial_evidence": true,
+    "source_url": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "publication_date": "2026-10-21",
+    "source_text": "Gameweek 8 deadline of 18:30 BST on Friday 23 October",
+    "retrieval_method": "Search result with official page text, date and 2026 footer; direct page open inaccessible",
+    "direct_fpl_ui_verified": false,
+    "ui_url": "https://fantasy.premierleague.com/en/fixtures/8",
+    "ui_result": "zero readable lines",
+    "conversion": "18:30 BST = 17:30 UTC = 19:30 Europe/Stockholm on 23 October 2026",
+    "day_before_target": "2026-10-22T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "news": "No newly verified plan-changing injury or price probability. Previously reported Haaland fitness update remains baseline. Older Arsenal sources excluded.",
+  "results": "No new permitted finalized matching-GW dataset; post-review unresolved.",
+  "improvements": "Daily attempt already logged; no second attempt",
+  "notification": "suppressed; deadline unchanged and no action-changing news"
+}
