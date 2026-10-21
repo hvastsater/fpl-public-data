@@ -40,6 +40,21 @@ realized EO (multipliers/N) and predicted EO. Never infer current rival transfer
 from last deadline's public picks. Free Hit squads are temporary, not permanent
 transfer histories. Do not call one good realized outcome a good decision.
 
+## Mandatory chip-eligibility gate (2026-10-21 correction)
+Before recommending, saving, or discussing a chip for any future GW, read
+`agent/CHIPS-2026-27.json` and any newer explicit owner confirmations.
+Cross-check first-half and second-half chip quotas with official season rules.
+2026/27 has separate sets for GW1–19 and GW20–38; a used first-half chip
+cannot be recommended again before GW20. The owner used Bench Boost GW1
+and Triple Captain GW3. The 2026-10-20 owner screenshot confirms Wildcard
+and Free Hit are still available in GW8. The second Triple Captain becomes
+available from GW20, not earlier.
+Official rules: https://www.premierleague.com/en/news/4679879/whats-happening-with-fpl-chips-in-202627
+A generic chip strategy article is never proof that the owner's chip is available.
+If availability is uncertain, mark it unknown and refrain from recommending it.
+Record chip eligibility in each new decision file; preserve old files as immutable
+historical records and correct them through higher-numbered revisions.
+
 ## Decision memory
 Store recommendations under agent/decisions/SEASON/gwNN/PHASE-vNNN.json.
 Use initial-v001.json as the shape reference. Never rewrite a past recommendation:
