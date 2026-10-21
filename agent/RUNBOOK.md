@@ -67,16 +67,27 @@ players, 2 GK/5 DEF/5 MID/3 FWD, max 3 per club, legal XI, costs and selling val
 Conditional advice is not unconditional GO.
 
 ## Scheduling and notifications
-Use one combined hourly condition-watch Task: FPL-agent – hela GW-cykeln
-(id 6ac4ccb3a74c8191a73637927f0d3d5b). On the owner's request, the previous
-pre-analysis and post-analysis Tasks were paused on 2026-10-20 after the combined
-configuration was read back and verified. This is configuration verification,
-not proof of a successful future scheduled run. Keep phase-specific delivery keys.
-Prioritize a due final decision over other phases; combine reports if appropriate.
-A blocked post-analysis must not block the next pre-analysis or final call. Pre-analysis is due at 18–30h before deadline;
-final at 1–2h. On a delayed final run inside 1h, send a clearly late update once
-if still useful and before deadline. Never send GO after deadline.
-After-analysis requires both finished and data_checked, not merely last kickoff.
+Use one combined hourly task: FPL-agent – hela GW-cykeln.
+Active replacement ID: 6ad8ba9679dc819191e7f12d75a3b0ff.
+The old task 6ac4ccb3a74c8191a73637927f0d3d5b remains paused; do not reactivate it.
+On 2026-10-21 the old task paused even during a tool-free one-sentence diagnostic,
+with no result. The replacement on an exact hourly schedule produced the requested
+text and remained enabled. This isolates the failure to the old task/execution
+configuration but does not identify the internal platform root cause.
+Four separate phases are required, based on the verified official GW deadline:
+- post-GW review after all matches and officially finalized points;
+- weekly forecast normally 48–72 hours before deadline;
+- day-before analysis at deadline minus 24 hours;
+- final decision targeted at deadline minus 2 hours.
+Hourly checks start on the half-hour in Europe/Stockholm. Other deadline minutes
+can introduce up to one polling interval plus processing time; do not promise
+exact delivery. Recalculate unsent targets whenever the official deadline changes.
+Keep separate season/GW/phase delivery keys. A blocked review must not block other
+reports. Prioritize a due final and combine overdue phases with distinct labels.
+Never send GO after deadline. Do not pause or edit the task from within a run.
+Optional engineering or persistence failures must not block a useful report.
+The GW8 weekly forecast was visibly present in the old run chat at 10:22 local
+on 2026-10-21, followed by the chip correction. Do not resend it as new.
 Each run starts by looking for agent/delivery/SEASON-gwNN-PHASE.json and its own
 chat delivery history. If sent, remain silent unless material new information
 requires a distinctly versioned correction. Record completed delivery only after
