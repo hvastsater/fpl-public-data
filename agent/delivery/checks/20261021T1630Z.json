@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-21 16:31:47 UTC",
+  "season": "2026-27",
+  "gameweek": 8,
+  "requested_status": "completed; final with status-deadline-20261021-retry1 present in chat",
+  "weekly_forecast": "previously delivered",
+  "official_deadline": {
+    "url": "https://fantasy.premierleague.com/",
+    "verified": false,
+    "result": "zero readable lines",
+    "last_confirmed_utc": "2026-10-23T17:30:00Z",
+    "last_confirmed_stockholm": "2026-10-23T19:30:00+02:00",
+    "corroboration_url": "https://www.rotowire.com/soccer/article/fpl-gameweek-8-rankings-best-players-captain-picks-gw8-142338",
+    "next_day_before_target": "2026-10-22T19:30:00+02:00",
+    "next_final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "price_check": {
+    "url": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
+    "publication_date": "2026-10-21",
+    "result": "No new squad price changes relative to preceding check; probabilities unknown"
+  },
+  "news": "No newly identified material change versus 16:35 delivered status; older 2024/2025 search results excluded.",
+  "review": "No new permitted matching-GW officially checked results obtained; post-review remains unresolved.",
+  "report_due": false,
+  "improvement": "Already attempted today; no additional improvement attempted",
+  "notification": "suppressed_no_material_update"
+}
