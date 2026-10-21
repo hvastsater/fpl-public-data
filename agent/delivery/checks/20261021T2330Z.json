@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-21 23:27:19 UTC",
+  "local_date": "2026-10-22",
+  "gameweek": 8,
+  "requested_status": "fulfilled; final with requested ID exists",
+  "injury_alert": "already delivered; unchanged action",
+  "news": {
+    "new_detail": "Multiple post-match sources quote Arteta and medics concerned after sharp pain. No confirmed severity, scan result, return date or Everton availability.",
+    "source_urls": [
+      "https://hayters.com/arteta-admits-concern-over-saka-injury-but-praises-players-after-draw-with-bayern-munich/",
+      "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury"
+    ],
+    "effect": "Retain WAIT; Saka not provisional captain; Haaland C/Mbeumo VC pending final team news. Concern alone does not establish mandatory sale or price risk.",
+    "notify": false
+  },
+  "deadline": {
+    "official_url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verification": "Fresh search text from official editorial explicitly states 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before_target": "2026-10-22T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "post_review": "No permitted matching officially finalized GW7 dataset obtained",
+  "report_due": false,
+  "improvement": "22 October attempt already recorded; no second attempt",
+  "notification": "no_material_action_change"
+}
