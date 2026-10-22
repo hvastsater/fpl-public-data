@@ -23,27 +23,26 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-22T18:32:10Z",
+    "checked_at_utc": "2026-10-22 19:34:02 UTC",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "No verified plan-changing development relative to day-before report. Reuters and Sky still describe uncertain Saka injury; no verified scan result or return date.",
+      "result": "Fresh search found no verified scan result or return date changing the day-before conditional plan.",
       "sources": [
         "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
-        "https://www.skysports.com/football/news/13602180/how-will-arsenal-cope-without-injured-bukayo-saka-noni-madueke-and-max-dowman-in-frame-for-more-minutes"
-      ],
-      "optional_source_error": "Yahoo fetch returned (429) Too Many Requests; other accessible reports checked."
+        "https://www.thesun.co.uk/sport/40775179/bukayo-saka-scan-arsena-injury-champions-league/"
+      ]
     },
     "prices": {
       "source": "https://fpl.page/price-changes",
-      "result": "Same22Oct DCL6.1 rise and Palacios5.3 fall; no new published plan-changing event. Prediction table empty; no future probabilities inferred."
+      "result": "Published22Oct history unchanged: DCL6.1 rise; no new concrete price risk. Predictions empty."
     },
     "results": {
       "official_finalized_matching_GW_snapshot": null,
-      "post_review": "Still blocked by missing permitted officially checked matching-GW results; no guessed outcomes."
+      "post_review": "Missing permitted officially checked matching-GW results; cannot calculate review."
     },
     "reports_due": false,
     "notification": "suppress_no_material_change",
