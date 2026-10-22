@@ -1,0 +1,55 @@
+{
+  "checked_at_utc": "2026-10-22T16:33:31Z",
+  "checked_at_stockholm": "2026-10-22T18:33:31+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "light_check",
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verification": "Official editorial opened: explicit GW8 deadline 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "targets_stockholm": {
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "report_due": false,
+  "news": {
+    "material_action_change": false,
+    "saka": "No verified scan outcome or absence duration found. Existing WAIT and conditional ROLL remain.",
+    "source": "https://www.thesun.co.uk/sport/40775179/bukayo-saka-scan-arsena-injury-champions-league/",
+    "haaland": "Previously recorded Thursday 100% availability supports existing provisional C; no new action.",
+    "research_discovered_for_due_report": [
+      "https://theanalyst.com/articles/best-fpl-picks-for-gameweek-8-opta",
+      "https://www.rotowire.com/soccer/article/fpl-gameweek-8-rankings-best-players-captain-picks-gw8-142338",
+      "https://www.fantasyfootballscout.co.uk/2026/10/22/fpl-gameweek-8-which-teams-are-projected-to-score-the-most-goals/"
+    ],
+    "caveat": "New forecast links discovered, not fully read or adopted as calibrated projections. FPL flag percentage is not a medical assessment."
+  },
+  "prices": {
+    "new_action_trigger_verified": false,
+    "prediction_probabilities": null,
+    "selling_values": null
+  },
+  "memory": {
+    "requested_status": "Fulfilled actual marked final in supplied chat; no resend",
+    "saka_alert": "Previously delivered; no duplicate",
+    "runbook_and_latest_alert_checked": true,
+    "daily_improvement": "Completed earlier today; no further attempt"
+  },
+  "results": {
+    "review_ready": false,
+    "missing": "Permitted matching officially checked finalized same-GW results"
+  },
+  "recommendation": {
+    "action": "WAIT",
+    "roll": "conditional pending Saka assessment",
+    "actual_execution": null,
+    "xP": null
+  },
+  "delivery": {
+    "user_update_due": false
+  }
+}
