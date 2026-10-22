@@ -23,30 +23,30 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-22 21:30:22 UTC",
+    "checked_at_utc": "2026-10-22 22:34:58 UTC",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "Fresh search returned awaiting-scan/assessment reports; no newly verified diagnosis or recovery date changing saved plan. Do not treat social speculation or Dream Team pricing/rules as FPL evidence.",
+      "result": "No verified new scan diagnosis/return date changing saved plan. Reuters awaiting assessment; Times search-summary duration already known but not confirmed medical evidence.",
       "sources": [
         "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
-        "https://sports.yahoo.com/articles/arsenal-await-bukayo-saka-scan-171017348.html"
+        "https://www.skysports.com/football/live-blog/13025486/arsenal-latest-arteta-reveals-nwaneri-injury-fears"
       ]
     },
     "prices": {
       "source": "https://fpl.page/price-changes",
-      "result": "Same22Oct published history: DCL6.1 rise, Palacios5.3 fall; no newly established future price risk. Prediction table empty."
+      "result": "Latest published history still22Oct DCL6.1 and Palacios5.3; predictions empty; no new price risk established."
     },
     "results": {
       "official_finalized_matching_GW_snapshot": null,
-      "post_review": "Permitted officially checked matching-GW results still absent; no guessed review."
+      "post_review": "Permitted officially checked matching-GW result data still unavailable."
     },
     "reports_due": false,
     "notification": "suppress_no_material_change",
-    "improvement": "Today's attempt already logged; no repeat.",
+    "improvement": "Oct23 P3 regression tests completed,3 pass; test file and execution evidence saved in GitHub. See IMPROVEMENTS.json.",
     "execution_confirmation_since_baseline": null
   }
 }
