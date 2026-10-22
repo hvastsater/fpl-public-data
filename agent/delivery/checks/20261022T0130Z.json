@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-22T01:34:01Z",
+  "season": "2026-27",
+  "gameweek": 8,
+  "delivered": [
+    "requested status retry1",
+    "Saka substitution alert"
+  ],
+  "news": "No new verified Saka diagnosis, scan result or duration. Medical concern already logged; WAIT unchanged.",
+  "prices": {
+    "source": "https://fpl.page/price-changes",
+    "date": "2026-10-22",
+    "published_changes": {
+      "Calvert_Lewin": 6.1,
+      "Palacios": 5.3
+    },
+    "effect": "Calvert-Lewin already in confirmed squad; rise creates no purchase urgency. Do not infer sale proceeds or bank change. No predictive price probabilities obtained.",
+    "notification": false
+  },
+  "deadline": {
+    "official_source": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "verification": "Fresh official editorial search text dated 21 October explicitly states GW8 Friday 23 October 18:30 BST",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "post_review": "No new permitted matching finalized GW7 data",
+  "improvement": "Already attempted 22 October; no additional attempt",
+  "report_due": false,
+  "notification": "no_material_plan_change"
+}
