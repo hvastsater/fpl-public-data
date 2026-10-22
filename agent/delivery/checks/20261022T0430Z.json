@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-10-22T04:32:49Z",
+  "checked_at_stockholm": "2026-10-22T06:32:49+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "light_check",
+  "deadline": {
+    "verified": true,
+    "source_type": "official_editorial",
+    "url": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "source_text": "18:30 BST on Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "report_targets_stockholm": {
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "report_due": false,
+  "sources_reviewed": [
+    "agent/RUNBOOK.md",
+    "agent/decisions/2026-27/gw08/injury-alert-saka-20261021-v001.json",
+    "agent/delivery/2026-27-gw08-injury_alert-saka-bayern-20261021.json",
+    "agent/IMPROVEMENTS.json"
+  ],
+  "news": {
+    "material_action_change": false,
+    "saka": "No verified new scan result, severity, return date or Everton availability found. Existing injury alert remains applicable.",
+    "excluded": "Undated social snippets and wrong-season stories excluded."
+  },
+  "prices": {
+    "fresh_page_read_confirmed": false,
+    "last_known_background": "Earlier 22 October check recorded Calvert-Lewin at £6.1 on fpl.page; already owned. No sale proceeds or bank inferred.",
+    "new_action_trigger_verified": false
+  },
+  "recommendation": {
+    "status": "WAIT",
+    "roll": "conditional",
+    "captain": "Haaland provisional",
+    "vice_captain": "Mbeumo provisional",
+    "transfers_executed": null,
+    "xP": null
+  },
+  "post_gw_review": {
+    "ready": false,
+    "blocker": "No permitted matching officially checked final result dataset verified."
+  },
+  "delivery": {
+    "requested_status": "Previously fulfilled in actual marked final; no repeat",
+    "saka_alert": "Previously delivered; no new action-changing development",
+    "this_check": "No user-facing report due"
+  },
+  "improvement": {
+    "attempted_this_check": false,
+    "reason": "Daily improvement already completed on 22 October; report priority preserved."
+  }
+}
