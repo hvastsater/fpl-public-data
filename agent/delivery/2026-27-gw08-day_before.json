@@ -6,8 +6,8 @@
   "report_id": "day-before-gw08-20261022-v001",
   "decision_file": "agent/decisions/2026-27/gw08/day-before-v001.json",
   "prepared_at_utc": "2026-10-22 17:38:06 UTC",
-  "status": "prepared_pending_final_response",
-  "confirmed": false,
+  "status": "final_response_present_in_chat_history",
+  "confirmed": true,
   "push_receipt_verified": false,
   "deadline": {
     "source": "https://www.premierleague.com/en/news/4744058",
@@ -19,5 +19,35 @@
     "final_target": "2026-10-23T17:30:00+02:00"
   },
   "reconcile_instruction": "Verify actual assistant final in same chat before marking final_response_present_in_chat_history. Preparation does not prove delivery.",
-  "requested_status_report": "status-deadline-20261021-retry1 already confirmed present by existing delivery record; do not resend weekly forecast or requested status."
+  "requested_status_report": "status-deadline-20261021-retry1 already confirmed present by existing delivery record; do not resend weekly forecast or requested status.",
+  "confirmed_at_utc": "2026-10-22T18:32:10Z",
+  "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
+  "latest_light_check": {
+    "checked_at_utc": "2026-10-22T18:32:10Z",
+    "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
+    "official_article_published": "2026-10-21",
+    "deadline_utc": "2026-10-23T17:30:00Z",
+    "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
+    "news": {
+      "result": "No verified plan-changing development relative to day-before report. Reuters and Sky still describe uncertain Saka injury; no verified scan result or return date.",
+      "sources": [
+        "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
+        "https://www.skysports.com/football/news/13602180/how-will-arsenal-cope-without-injured-bukayo-saka-noni-madueke-and-max-dowman-in-frame-for-more-minutes"
+      ],
+      "optional_source_error": "Yahoo fetch returned (429) Too Many Requests; other accessible reports checked."
+    },
+    "prices": {
+      "source": "https://fpl.page/price-changes",
+      "result": "Same22Oct DCL6.1 rise and Palacios5.3 fall; no new published plan-changing event. Prediction table empty; no future probabilities inferred."
+    },
+    "results": {
+      "official_finalized_matching_GW_snapshot": null,
+      "post_review": "Still blocked by missing permitted officially checked matching-GW results; no guessed outcomes."
+    },
+    "reports_due": false,
+    "notification": "suppress_no_material_change",
+    "improvement": "Already performed today per IMPROVEMENTS.json; no second attempt.",
+    "execution_confirmation_since_baseline": null
+  }
 }
