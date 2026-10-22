@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "day_before",
+  "revision": 1,
+  "created_at_utc": "2026-10-22 17:38:06 UTC",
+  "entry_id": 6273717,
+  "league_id": 1286090,
+  "status": "provisional_wait_for_saka_assessment",
+  "supersedes": null,
+  "references": [
+    "weekly-forecast-v002.json",
+    "confirmed-team-20261020T0900.json"
+  ],
+  "team_basis": {
+    "source": "agent/decisions/2026-27/gw08/confirmed-team-20261020T0900.json",
+    "observed_at": "2026-10-20T09:00:00+02:00",
+    "free_transfers": 2,
+    "bank_gbp_m": 0.2,
+    "newer_execution_confirmation": null,
+    "sale_values": null
+  },
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "published": "2026-10-21",
+    "checked_at_utc": "2026-10-22 17:38:06 UTC",
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before_target": "2026-10-22T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "facts": [
+    "Saka left Bayern match with quadriceps injury; Reuters 22 October reports Arteta concerned and awaiting assessment. No official scan result/return date verified.",
+    "Sun report published 22 October 14:33 UK says scan planned today. Times search summary suggests absence past international break but accessible page hides body; not accepted as confirmed medical duration.",
+    "Official City report confirms Haaland 100% available and unused substitute against AEK; availability does not guarantee start.",
+    "Published FPL price history 22 October shows Calvert-Lewin 6.1; this does not establish owner sale proceeds.",
+    "Day-before phase absent from delivery directory; weekly and requested status phases already delivered."
+  ],
+  "recommendation": {
+    "action": "WAIT",
+    "execution": null,
+    "expected_points": null,
+    "confidence": "medium",
+    "strategic_reason": "Usable fourth defender makes holding a short Saka absence credible. Longer absence favours a one-transfer replacement while preserving second FT; defer medical-sensitive sale until assessment.",
+    "conditional_default_if_no_reliable_update": "ROLL, bench Saka, no hit; this is a conservative fallback, not proof Saka is fit.",
+    "transfers": [],
+    "hit_cost": 0
+  },
+  "alternatives": [
+    {
+      "id": "roll",
+      "transfers": [],
+      "hit_cost": 0,
+      "expected_points": null,
+      "affordability": "requires no purchase",
+      "verdict": "preferred if absence short or remains unverified and no further squad losses",
+      "future_FT": "3 next GW only if baseline unchanged and season accrual rules apply"
+    },
+    {
+      "id": "saka_to_rogers",
+      "transfers": [
+        {
+          "out": "Saka",
+          "in": "Rogers",
+          "buy_gbp_m": 8,
+          "sale_gbp_m": null
+        }
+      ],
+      "hit_cost": 0,
+      "expected_points": null,
+      "affordability": "conditional: Saka sale >=7.8 with unchanged 0.2 bank",
+      "verdict": "preferred one-transfer branch if multiple-GW absence confirmed; preserve second FT"
+    },
+    {
+      "id": "saka_to_palmer",
+      "transfers": [
+        {
+          "out": "Saka",
+          "in": "Palmer",
+          "buy_gbp_m": 9.7,
+          "sale_gbp_m": null
+        }
+      ],
+      "hit_cost": 0,
+      "expected_points": null,
+      "affordability": "conditional: Saka sale >=9.5 with unchanged bank; displayed 9.6 not accepted as sale value",
+      "verdict": "premium alternative; less flexibility and only small GW8 ranking edge"
+    },
+    {
+      "id": "saka_to_tavernier",
+      "transfers": [
+        {
+          "out": "Saka",
+          "in": "Tavernier",
+          "buy_gbp_m": 6.2,
+          "sale_gbp_m": null
+        }
+      ],
+      "hit_cost": 0,
+      "expected_points": null,
+      "affordability": "conditional: Saka sale >=6.0",
+      "verdict": "budget alternative, less GW8 appeal but leaves funds for future upgrade"
+    },
+    {
+      "id": "saka_to_neto",
+      "transfers": [
+        {
+          "out": "Saka",
+          "in": "Neto",
+          "buy_gbp_m": 6.5,
+          "sale_gbp_m": null
+        }
+      ],
+      "hit_cost": 0,
+      "expected_points": null,
+      "affordability": "conditional: Saka sale >=6.3",
+      "verdict": "cheaper Chelsea alternative with minutes/role uncertainty"
+    },
+    {
+      "id": "saka_xhaka_to_rogers_tavernier",
+      "transfers": [
+        {
+          "out": "Saka",
+          "in": "Rogers"
+        },
+        {
+          "out": "Xhaka",
+          "in": "Tavernier"
+        }
+      ],
+      "hit_cost": 0,
+      "expected_points": null,
+      "affordability": "conditional: combined actual sale proceeds >=14.0 at published combined buy14.2 and bank0.2",
+      "verdict": "not preferred now: consumes both FT; no reliable same-horizon net gain established"
+    }
+  ],
+  "provisional_team": {
+    "formation": "4-3-3",
+    "starting_xi": [
+      "Verbruggen",
+      "Gabriel",
+      "Calafiori",
+      "Muharemović",
+      "Maguire",
+      "Mbeumo",
+      "Groß",
+      "Xhaka",
+      "Haaland",
+      "João Pedro",
+      "Calvert-Lewin"
+    ],
+    "bench_goalkeeper": "Kinsky",
+    "bench_order": [
+      "Thiaw",
+      "Saka",
+      "Slater"
+    ],
+    "captain": "Haaland",
+    "vice_captain": "Mbeumo",
+    "chip": "none",
+    "contingencies": [
+      "If Saka medically cleared with credible starting minutes: start Saka instead of Maguire, bench Maguire then Thiaw then Slater.",
+      "If Saka sold for Rogers/Palmer/Tavernier/Neto: incoming midfielder starts instead of Maguire in 3-4-3; bench Maguire, Thiaw, Slater.",
+      "If Maguire unavailable under ROLL: Thiaw replaces him. Recheck all relevant club news at final.",
+      "If new Haaland fitness setback: Mbeumo captain, João Pedro vice."
+    ]
+  },
+  "chip_eligibility": {
+    "source": "agent/CHIPS-2026-27.json",
+    "official_rules_checked": "https://www.premierleague.com/en/news/4679879/whats-happening-with-fpl-chips-in-202627",
+    "bench_boost": "used_GW1_first_half_unavailable",
+    "triple_captain": "used_GW3_first_half_unavailable",
+    "wildcard": "available_as_of_Oct20",
+    "free_hit": "available_as_of_Oct20",
+    "recommendation": "none"
+  },
+  "models": [
+    {
+      "source": "FPLXI",
+      "url": "https://fplxi.com/gameweeks/8",
+      "published_update": "2026-10-22 07:00 UK",
+      "gw8": {
+        "Mbeumo": 6.8,
+        "Rogers": 5.7,
+        "Joao_Pedro": 5.6
+      },
+      "caveat": "Published model output, not own calibrated consensus."
+    },
+    {
+      "source": "Statz",
+      "url": "https://statz.ai/fpl/gameweek/8",
+      "published_update": "2026-10-22",
+      "gw8": {
+        "Haaland": 6.2,
+        "Gabriel": 5.6,
+        "Palmer": 5.5
+      },
+      "caveat": "Saka5.3 and injury list not consistent with injury reports; do not use Saka estimate."
+    },
+    {
+      "source": "RotoWire",
+      "url": "https://www.rotowire.com/soccer/article/fpl-gameweek-8-rankings-best-players-captain-picks-gw8-142338",
+      "published_update": "2026-10-22 08:26 EST as labelled",
+      "gw8": {
+        "Haaland": 6.59,
+        "Mbeumo": 6.21,
+        "Joao_Pedro": 5.95,
+        "Palmer": 5.71,
+        "Rogers": 5.33,
+        "Muharemovic": 4.79,
+        "Maguire": 4.45,
+        "Xhaka": 4.37,
+        "Thiaw": 4.36,
+        "Tavernier": 4.12,
+        "Neto": 4.13,
+        "Verbruggen": 3.02,
+        "Kinsky": 2.23
+      },
+      "caveat": "External projected points/early ranking. DCL price6.0 stale relative22Oct rise; underlying minutes/injury assumptions not independently audited. No full-team or package xP derived."
+    }
+  ],
+  "horizon_plan": [
+    "GW8 wait for medical assessment, avoid hit and chip, use defensive cover if holding.",
+    "GW9-10 reassess Saka return and Xhaka upgrade; do not precommit a second transfer or immediate Saka buyback.",
+    "GW10-11 evaluate Chelsea investment over multiple fixtures; preserve flexibility rather than two transfers solely for this GW.",
+    "GW12-15 reassess remaining WC/FH need, injuries and European rotation; no fixed chip GW or invented eight-GW forecast.",
+    "Keep Haaland, Gabriel and Calafiori absent material new evidence; do not chase Theo solely on league position."
+  ],
+  "gaps": [
+    "No confirmed current sale prices or execution after Oct20.",
+    "No verified Saka scan/return date; not all Friday press conferences occurred.",
+    "No matching-GW current rival squads, EO or officially checked finalized result set; no post-review fabricated.",
+    "Full comparable player xG/xA/shot/big-chance and set-piece datasets not verified from permitted sources.",
+    "Future price probability unavailable; page prediction table empty.",
+    "No reliable full-team or multi-GW package xP, values remain null."
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
+      "published": "2026-10-22",
+      "retrieved_at_utc": "2026-10-22 17:38:06 UTC"
+    },
+    {
+      "url": "https://www.thesun.co.uk/sport/40775179/bukayo-saka-scan-arsena-injury-champions-league/",
+      "published": "2026-10-22 14:33 UK",
+      "retrieved_at_utc": "2026-10-22 17:38:06 UTC"
+    },
+    {
+      "url": "https://www.mancity.com/news/mens/enzo-maresca-aston-villa-away-press-conference-written-63928256",
+      "published_date_inferred_from_news_index": "2026-10-22",
+      "retrieved_at_utc": "2026-10-22 17:38:06 UTC"
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/4744058",
+      "published": "2026-10-21",
+      "retrieved_at_utc": "2026-10-22 17:38:06 UTC"
+    },
+    {
+      "url": "https://theanalyst.com/articles/best-fpl-picks-for-gameweek-8-opta",
+      "published": "2026-10-22",
+      "note": "Leeds defensive strength supports Muharemovic; Neto alternative.",
+      "retrieved_at_utc": "2026-10-22 17:38:06 UTC"
+    },
+    {
+      "url": "https://fpl.page/price-changes",
+      "published_history_date": "2026-10-22",
+      "retrieved_at_utc": "2026-10-22 17:38:06 UTC"
+    }
+  ],
+  "evaluation": {
+    "official_results_checked": null,
+    "post_review_due": null,
+    "reason": "No compatible permitted finalized matching-GW snapshot, do not reuse old raw archive as current."
+  },
+  "delivery": {
+    "status": "prepared_pending_final_response",
+    "confirmed": false
+  },
+  "improvement": {
+    "attempted_this_run": false,
+    "reason": "Report priority; today's improvement already logged."
+  },
+  "validation": {
+    "unique_players": 15,
+    "baseline_membership": true,
+    "composition": "2GK/5DEF/5MID/3FWD",
+    "formation_legal": true,
+    "max_three_per_club": true,
+    "budget_verified": false,
+    "actual_sale_prices_required": true
+  }
+}
