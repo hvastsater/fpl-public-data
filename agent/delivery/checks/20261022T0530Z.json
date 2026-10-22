@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-10-22T05:33:02Z",
+  "checked_at_stockholm": "2026-10-22T07:33:02+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "light_check",
+  "deadline": {
+    "verified": true,
+    "source_type": "official_editorial",
+    "url": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "publication_date": "2026-10-21",
+    "evidence": "18:30 BST on Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "targets_stockholm": {
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "report_due": false,
+  "news": {
+    "material_action_change": false,
+    "saka": "Postmatch concern reiterated; no verified new scan outcome, absence duration or official Everton availability. Existing WAIT recommendation remains.",
+    "sources": [
+      "https://app.standard.co.uk/sport/football/bukayo-saka-arsenal-fc-injury-latest-mikel-arteta-b1301839.html",
+      "https://www.premierinjuries.com/teams/arsenal"
+    ],
+    "caveat": "Third-party injury tracker labels do not establish a new official diagnosis or duration."
+  },
+  "prices": {
+    "url": "https://fpl.page/price-changes",
+    "date": "2026-10-22",
+    "published_changes": [
+      {
+        "player": "Calvert-Lewin",
+        "price": 6.1,
+        "direction": "rise"
+      },
+      {
+        "player": "Palacios",
+        "price": 5.3,
+        "direction": "fall"
+      }
+    ],
+    "action_change": false,
+    "note": "Already recorded in prior checks; owned Calvert-Lewin rise creates no purchase urgency. Sale values and bank not inferred. Prediction widget empty."
+  },
+  "memory": {
+    "runbook_read": true,
+    "decision_directory_checked": true,
+    "new_team_confirmation_found": false,
+    "requested_status": "Actual marked final confirmed in supplied chat and delivery record; no resend",
+    "saka_alert": "Already present in supplied chat; no duplicate",
+    "daily_improvement": "Completed earlier 22 October; no second attempt"
+  },
+  "results": {
+    "review_ready": false,
+    "blocker": "Permitted matching officially finalized same-GW results not verified"
+  },
+  "recommendation": {
+    "action": "WAIT",
+    "roll": "conditional on Saka assessment",
+    "execution": null,
+    "xP": null
+  },
+  "delivery": {
+    "user_update_due": false
+  }
+}
