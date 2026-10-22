@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-10-22T15:31:53Z",
+  "checked_at_stockholm": "2026-10-22T17:31:53+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "light_check",
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verification": "Fresh official editorial open: GW8 deadline 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "targets_stockholm": {
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "report_due": false,
+  "news": {
+    "material_action_change": false,
+    "saka": "Fresh Standard article says scan due Thursday; no verified scan result or absence duration. Do not treat scan-completed social posts or pundit duration estimates as medical confirmation.",
+    "source": "https://www.standard.co.uk/sport/football/bukayo-saka-injury-arsenal-fc-scan-b1301959.html",
+    "source_freshness": "Search result 25 minutes ago; source body excerpt read via search",
+    "haaland": "Thursday 100% availability reporting already recorded; existing provisional C retained."
+  },
+  "prices": {
+    "url": "https://fpl.page/price-changes",
+    "date": "2026-10-22",
+    "published": [
+      {
+        "player": "Calvert-Lewin",
+        "price": 6.1,
+        "direction": "rise"
+      },
+      {
+        "player": "Palacios",
+        "price": 5.3,
+        "direction": "fall"
+      }
+    ],
+    "new_action_trigger": false,
+    "prediction_probabilities": null,
+    "selling_values": null
+  },
+  "memory": {
+    "requested_status": "Fulfilled actual marked final supplied in chat; no resend",
+    "saka_alert": "Already delivered; no duplicate",
+    "runbook_and_latest_alert_checked": true,
+    "daily_improvement": "Completed earlier today; no further attempt"
+  },
+  "results": {
+    "review_ready": false,
+    "missing": "Permitted matching officially checked finalized same-GW dataset"
+  },
+  "recommendation": {
+    "action": "WAIT",
+    "roll": "conditional pending Saka assessment",
+    "actual_execution": null,
+    "xP": null
+  },
+  "delivery": {
+    "user_update_due": false
+  }
+}
