@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-22T02:28:34Z",
+  "season": "2026-27",
+  "gameweek": 8,
+  "requested_status": "fulfilled; marked final present",
+  "injury_alert": "delivered; deduplicated",
+  "news": "No new verified Saka scan result, absence duration or Everton availability; sharp-pain and medical-concern reports unchanged. Older 2021/April sources excluded.",
+  "prices": {
+    "source": "https://fpl.page/price-changes",
+    "published_date": "2026-10-22",
+    "Calvert_Lewin": 6.1,
+    "Palacios": 5.3,
+    "change_vs_previous_check": false,
+    "sale_values": null,
+    "predictive_risk": null
+  },
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "publication_date": "2026-10-21",
+    "verification": "Fresh official editorial search text explicitly gives GW8 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "post_review": "No new permitted matching officially finalized GW7 dataset",
+  "improvement": "Already attempted today; no additional attempt",
+  "report_due": false,
+  "notification": "no_material_update"
+}
