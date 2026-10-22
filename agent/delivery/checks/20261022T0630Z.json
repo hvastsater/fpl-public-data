@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-10-22T06:26:57Z",
+  "checked_at_stockholm": "2026-10-22T08:26:57+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "light_check",
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "source_publication": "2026-10-21",
+    "verification": "Fresh official editorial search result explicitly states GW8 deadline 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "targets_stockholm": {
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "report_due": false,
+  "news": {
+    "material_action_change": false,
+    "saka": "Reuters 22 October 04:28 UTC repeats postmatch quad concern; no scan outcome or absence duration confirmed. No change to WAIT and conditional ROLL.",
+    "url": "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
+    "excluded": "Undated optimistic Facebook snippet and unsupported duration speculation."
+  },
+  "prices": {
+    "page_opened": "https://fpl.page/price-changes",
+    "fresh_history_values_exposed": false,
+    "last_verified_background": "22 October: Calvert-Lewin £6.1 rise; Palacios £5.3 fall. Previously recorded, no action-changing trigger.",
+    "sale_prices": null
+  },
+  "memory": {
+    "runbook_and_latest_injury_decision_checked": true,
+    "requested_status_final": "Already present in supplied chat with exact report ID; fulfilled",
+    "saka_alert": "Already delivered; no duplicate",
+    "daily_improvement": "Already completed 22 October; no new attempt"
+  },
+  "results": {
+    "review_ready": false,
+    "missing": "Permitted matching officially finalized GW results"
+  },
+  "recommendation": {
+    "action": "WAIT",
+    "xP": null,
+    "actual_execution": null
+  },
+  "delivery": {
+    "user_update_due": false
+  }
+}
