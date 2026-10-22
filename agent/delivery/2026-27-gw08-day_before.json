@@ -23,31 +23,30 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-22 20:31:42 UTC",
+    "checked_at_utc": "2026-10-22 21:30:22 UTC",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "No verified new scan result/return date changing conditional day-before plan. Reuters still awaiting assessment; new Yahoo headline also awaiting scan results, body returned429. Prior Times search-summary claim remains unverified and already recorded.",
+      "result": "Fresh search returned awaiting-scan/assessment reports; no newly verified diagnosis or recovery date changing saved plan. Do not treat social speculation or Dream Team pricing/rules as FPL evidence.",
       "sources": [
         "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
         "https://sports.yahoo.com/articles/arsenal-await-bukayo-saka-scan-171017348.html"
-      ],
-      "optional_source_error": "Yahoo fetch: (429) Too Many Requests"
+      ]
     },
     "prices": {
       "source": "https://fpl.page/price-changes",
-      "result": "22Oct history unchanged: Calvert-Lewin6.1, Palacios5.3. No new concrete price event; prediction table empty."
+      "result": "Same22Oct published history: DCL6.1 rise, Palacios5.3 fall; no newly established future price risk. Prediction table empty."
     },
     "results": {
       "official_finalized_matching_GW_snapshot": null,
-      "post_review": "Permitted officially checked matching-GW results still unavailable; no outcome inference."
+      "post_review": "Permitted officially checked matching-GW results still absent; no guessed review."
     },
     "reports_due": false,
     "notification": "suppress_no_material_change",
-    "improvement": "Daily attempt already recorded; no further attempt.",
+    "improvement": "Today's attempt already logged; no repeat.",
     "execution_confirmation_since_baseline": null
   }
 }
