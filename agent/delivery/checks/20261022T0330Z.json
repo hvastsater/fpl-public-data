@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-10-22T03:28:45Z",
+  "season": "2026-27",
+  "gameweek": 8,
+  "delivered": [
+    "status-deadline-20261021-retry1",
+    "saka-bayern-injury-20261021"
+  ],
+  "news": {
+    "result": "No newly verified scan result or absence duration. Premier Injuries search excerpt labels quadriceps strain, last update 21 Oct 21:22 UK; no independent club diagnosis established. No action change from WAIT.",
+    "source": "https://www.premierinjuries.com/teams/arsenal",
+    "official_medical_confirmation": null
+  },
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "checked_at_utc": "2026-10-22T03:28:45Z",
+    "result": "Official article found again; retrieved excerpt this run did not expose full deadline. Last explicit official text checked previous run; no conflicting deadline found.",
+    "last_confirmed_utc": "2026-10-23T17:30:00Z",
+    "last_confirmed_stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before_target": "2026-10-22T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "price_check": "No newly verified actionable price-risk data obtained; previous published Calvert-Lewin rise already recorded.",
+  "post_review": "No new matching officially finalized GW7 dataset",
+  "report_due": false,
+  "improvement": "Today's attempt already recorded; no second attempt",
+  "notification": "no_material_update"
+}
