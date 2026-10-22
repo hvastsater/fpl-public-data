@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-22T00:34:10Z",
+  "season": "2026-27",
+  "gameweek": 8,
+  "delivered": [
+    "requested_status status-deadline-20261021-retry1",
+    "saka-bayern-injury-20261021"
+  ],
+  "news": {
+    "result": "No verified new scan, absence duration or match availability beyond reported sharp pain and medical concern.",
+    "new_article": "https://www.si.com/soccer/bukayo-saka-injury-progress-potential-return-date-for-arsenal-star",
+    "access": "Direct open inaccessible; title not treated as proof of recovery timeline"
+  },
+  "prices": {
+    "url": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
+    "latest_published_date": "2026-10-21",
+    "current_22_oct_changes": null,
+    "note": "Page still dated 21 Oct; do not interpret as proof no overnight changes or future price risk."
+  },
+  "deadline": {
+    "official_url": "https://www.premierleague.com/en/news/4744058/fpl-experts-answer-10-key-questions-ahead-of-gameweek-8",
+    "source_date": "2026-10-21",
+    "method": "Fresh official search result explicitly states 18:30 BST Friday 23 October for GW8",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00",
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "review": "No new matching officially finalized GW7 data",
+  "improvement": "Today's attempt already logged; no second attempt",
+  "report_due": false,
+  "notification": "no_material_update"
+}
