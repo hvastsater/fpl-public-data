@@ -1,0 +1,53 @@
+{
+  "checked_at_utc": "2026-10-22T12:35:09Z",
+  "checked_at_stockholm": "2026-10-22T14:35:09+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "light_check",
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verification": "Fresh official editorial open: GW8 deadline 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "targets_stockholm": {
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "report_due": false,
+  "news": {
+    "material_action_change": false,
+    "haaland": "Thursday Maresca press conference reported by Scout: 100% available. Reinforces existing keep/provisional captain recommendation; no new action needed. Availability is not a guaranteed start.",
+    "haaland_source": "https://www.fantasyfootballscout.co.uk/2026/10/22/fpl-gameweek-8-team-news-thursdays-live-injury-updates",
+    "source_publication_date": "2026-10-22",
+    "saka": "No verified scan outcome or absence duration found; existing postmatch concern repeated.",
+    "saka_source": "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
+    "next_report_note": "Include Thursday fitness reinforcement in due day-before analysis."
+  },
+  "prices": {
+    "new_action_trigger_verified": false,
+    "prediction_probabilities": null,
+    "selling_values": null
+  },
+  "memory": {
+    "requested_status": "Actual marked final already present; no resend",
+    "saka_alert": "Previously delivered; no duplicate",
+    "runbook_and_latest_alert_checked": true,
+    "daily_improvement": "Completed earlier today; no further attempt"
+  },
+  "results": {
+    "review_ready": false,
+    "missing": "Permitted matching officially checked finalized same-GW results"
+  },
+  "recommendation": {
+    "action": "WAIT",
+    "roll": "conditional pending Saka assessment",
+    "captain": "Haaland provisional",
+    "actual_execution": null,
+    "xP": null
+  },
+  "delivery": {
+    "user_update_due": false
+  }
+}
