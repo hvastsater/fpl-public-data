@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-10-22T07:34:10Z",
+  "checked_at_stockholm": "2026-10-22T09:34:10+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "light_check",
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "fresh_verification": "Official editorial search excerpt explicitly identifies GW8 deadline 18:30 BST Friday 23 October",
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "targets_stockholm": {
+    "day_before": "2026-10-22T19:30:00+02:00",
+    "final": "2026-10-23T17:30:00+02:00"
+  },
+  "report_due": false,
+  "news": {
+    "material_action_change": false,
+    "saka": "No verified scan result or absence duration; existing concern repeated. WAIT remains appropriate.",
+    "sources": [
+      "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/"
+    ],
+    "excluded": "Optimistic AFTV item dated 12 March 2026; undated Arsenal Saka/Merino snippet not verified current, opening returned Internal Error."
+  },
+  "prices": {
+    "url": "https://fpl.page/price-changes",
+    "date": "2026-10-22",
+    "changes": [
+      {
+        "player": "Calvert-Lewin",
+        "price": 6.1,
+        "direction": "rise"
+      },
+      {
+        "player": "Palacios",
+        "price": 5.3,
+        "direction": "fall"
+      }
+    ],
+    "material_action_change": false,
+    "prediction_probabilities": null,
+    "sale_values": null
+  },
+  "memory": {
+    "requested_status": "Already fulfilled by actual marked final in supplied chat and dedicated delivery record",
+    "saka_alert": "Already sent; no repeat",
+    "runbook_and_latest_alert_read": true,
+    "daily_improvement": "Already completed 22 October; no further attempt"
+  },
+  "results": {
+    "review_ready": false,
+    "missing": "Permitted matching officially checked finalized GW result dataset"
+  },
+  "recommendation": {
+    "action": "WAIT",
+    "roll": "conditional on Saka assessment",
+    "actual_execution": null,
+    "xP": null
+  },
+  "delivery": {
+    "user_update_due": false
+  }
+}
