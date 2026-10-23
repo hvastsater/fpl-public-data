@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "exception",
+  "event_key": "saka-repeat-mri-no-timeline-20261023",
+  "checked_at_utc": "2026-10-23 13:36:55 UTC",
+  "facts": {
+    "published_press_conference_reports": "23 October reports say Saka requires another MRI this afternoon and no recovery timeline is available; The Independent reports he has not trained.",
+    "confidence": "Reported press-conference information corroborated in published search results; direct page opens failed. Not an official club medical diagnosis.",
+    "multi_gameweek_absence_confirmed": false
+  },
+  "sources": [
+    "https://www.independent.co.uk/sport/football/bukayo-saka-injury-arsenal-news-update-b3072044.html",
+    "https://thefalse9.com/2026/10/arteta-press-conference-everton-saka.html",
+    "https://paininthearsenal.com/mikel-arteta-latest-bukayo-saka-injury-update-provides-arsenal-fans-with-no-clarity"
+  ],
+  "recommendation": {
+    "current": "WAIT pending final analysis; do not assume scan result before deadline. Saka remains outside provisional XI.",
+    "if_no_new_assessment": "Conditional ROLL remains defensible with existing cover; replacement Rogers remains preferred if selling is justified.",
+    "budget": "Rogers published buy8.0 requires actual Saka sale>=7.8 at unchanged bank0.2. Actual sales and current buy require final verification.",
+    "xp": null,
+    "executed": null
+  },
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "delivery": {
+    "status": "prepared_for_final_response",
+    "confirmed": false,
+    "push_receipt_verified": false
+  }
+}
