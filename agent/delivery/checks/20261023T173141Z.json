@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-23T17:31:41Z",
+  "checked_at_stockholm": "2026-10-23T19:31:41+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "phase_status": "deadline_passed",
+  "last_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "delivery_evidence": "Supplied conversation includes requested status report-ID, day-before, final, Palmer correction and XI; no repeat.",
+  "execution_confirmed": null,
+  "results_status": "GW8 not complete; no official finalized matching-GW points provided. No postreview due.",
+  "report_sent": false,
+  "reason": "No new actionable update; no GO after deadline.",
+  "improvement_attempted": false,
+  "improvement_reason": "Daily improvement already recorded; no additional attempt.",
+  "automation_change": false
+}
