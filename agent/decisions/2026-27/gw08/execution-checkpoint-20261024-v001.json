@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "entry_id": 6273717,
+  "recorded_at_utc": "2026-10-23T22:27:07Z",
+  "purpose": "Execution evidence checkpoint; recommendation must not become confirmed holdings through silence.",
+  "confirmed_baseline": {
+    "file": "agent/decisions/2026-27/gw08/confirmed-team-20261020T0900.json",
+    "observed_at": "2026-10-20T09:00:00+02:00",
+    "free_transfers": 2,
+    "bank_gbp_m": 0.2
+  },
+  "latest_recommendation": {
+    "file": "agent/decisions/2026-27/gw08/final-v002.json",
+    "out": "Saka",
+    "in": "Palmer",
+    "visible_in_supplied_chat": true
+  },
+  "execution": {
+    "status": "unknown",
+    "confirmed_transfers": null,
+    "actual_starting_xi": null,
+    "actual_bench": null,
+    "actual_captain": null,
+    "actual_vice": null,
+    "actual_chip": null,
+    "post_deadline_bank": null,
+    "next_gameweek_free_transfers": null
+  },
+  "evidence": "User asked whether Palmer affordable and requested XI; no explicit completed-transfer or saved-lineup confirmation appears in supplied history.",
+  "evaluation_gate": "Do not score recommended Palmer XI as actual team. Counterfactual advice and actual execution require distinct records.",
+  "next_step": "Accept an explicit user confirmation or permitted matching-GW observation; do not request weekly screenshots."
+}
