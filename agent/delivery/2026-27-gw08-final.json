@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "final",
+  "report_id": "final-gw08-20261023-v001",
+  "decision_file": "agent/decisions/2026-27/gw08/final-v001.json",
+  "prepared_at_utc": "2026-10-23T15:30:36Z",
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "checked_at_utc": "2026-10-23T15:30:36Z",
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "status": "prepared_pending_final_response",
+  "confirmed": false,
+  "push_receipt_verified": false,
+  "reconcile_instruction": "Only confirm after actual final text appears in this chat; GitHub write alone is not delivery."
+}
