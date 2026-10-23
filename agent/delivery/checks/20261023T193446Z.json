@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-23T19:34:46Z",
+  "checked_at_stockholm": "2026-10-23T21:34:46+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "utc": null,
+    "stockholm": null,
+    "official_verification": false,
+    "reason": "Official fixture search snippet shows31Oct04:00 in unspecified local timezone; no UTC inferred. Third-party11GMT claim not official verification."
+  },
+  "delivery": "All due GW8 pre-deadline phases and one-off status visible in supplied history; Palmer correction preserved in final-v002.",
+  "execution": null,
+  "news": {
+    "material_change": false,
+    "note": "Saka possible6week/8week media reports remain unconfirmed; no diagnosis adopted and no change versus existing sell recommendation.",
+    "sources": [
+      "https://www.reuters.com/sports/soccer/arsenals-saka-miss-everton-clash-undergo-further-tests-says-arteta-2026-10-23/",
+      "https://www.theguardian.com/football/2026/oct/23/arsenal-arteta-concerned-saka-durability-six-week-absence"
+    ]
+  },
+  "postreview": {
+    "ready": false,
+    "finalized_points": null,
+    "reason": "GW8 weekend fixtures pending; no official finalized points."
+  },
+  "improvement_attempted": false,
+  "reason": "Daily improvement already recorded.",
+  "report_sent": false,
+  "automation_changed": false
+}
