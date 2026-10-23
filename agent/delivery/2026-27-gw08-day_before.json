@@ -23,22 +23,22 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-23 00:30:27 UTC",
+    "checked_at_utc": "2026-10-23 01:31:03 UTC",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "Fresh search found waiting-for-scan reports and no verified new diagnosis or recovery date. Previously recorded Times search summary remains unconfirmed.",
+      "result": "Fresh search found no verified scan result or recovery date. Latest published reports still await assessment; unverified social-media duration claims are excluded. WAIT and conditional transfer branches unchanged.",
       "sources": [
         "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
-        "https://roundtable.io/sports/soccer/premier-league/arsenal/video/arsenal-await-bukayo-saka-scan-results-after-injury-scare-against-bayern-munich"
+        "https://www.thesun.co.uk/sport/40775179/bukayo-saka-scan-arsena-injury-champions-league/"
       ]
     },
     "prices": {
       "official_source": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
-      "result": "Official published article still22Oct DCL6.1/Palacios5.3. Prior check third-party23Oct Mbeumo7.9,Palmer9.8,Maguire4.7,Ampadu5.3 remains not officially corroborated; do not infer owner sale proceeds.",
+      "result": "Official published article freshly opened and still dated22Oct: DCL6.1/Palacios5.3. Previously observed third-party23Oct Palmer9.8/Mbeumo7.9/Maguire4.7 remains uncorroborated by this official article. No inferred sale proceeds; preferred Rogers branch unchanged.",
       "pending_final_budget_check": "If Palmer9.8 confirmed, minimum Saka sale9.6 with bank0.2. Preferred Rogers branch unchanged.",
       "future_price_probabilities": null
     },
