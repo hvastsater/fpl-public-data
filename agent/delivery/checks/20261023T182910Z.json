@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-23T18:29:10Z",
+  "checked_at_stockholm": "2026-10-23T20:29:10+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "status": "post_deadline_no_due_report",
+  "next_deadline": {
+    "gameweek": 9,
+    "officially_verified": false,
+    "utc": null,
+    "stockholm": null,
+    "note": "Search returned third-party31Oct11GMT claim only; not adopted as official deadline."
+  },
+  "last_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution": null,
+  "postreview": {
+    "ready": false,
+    "official_finalized_points": null,
+    "note": "GW8 weekend fixtures remain pending; no matching finalized score evidence."
+  },
+  "deduplication": "Requested status, weekly, day-before, final and Palmer correction already visible in supplied chat. No new actionable item.",
+  "improvement_attempted": false,
+  "reason": "Daily attempt already completed per IMPROVEMENTS.json.",
+  "report_sent": false,
+  "automation_changed": false
+}
