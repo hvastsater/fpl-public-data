@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "material_price_correction",
+  "revision": 1,
+  "event_key": "gw08-palmer-official-9_8-20261023",
+  "created_at_utc": "2026-10-23 08:29:21 UTC",
+  "corrects": "day-before-v001.json",
+  "source": {
+    "url": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
+    "published": "2026-10-23",
+    "article_transfer_counts_as_of": "08:31 BST",
+    "retrieved_at_utc": "2026-10-23 08:29:21 UTC"
+  },
+  "facts": {
+    "Palmer_buy_gbp_m": 9.8,
+    "Mbeumo_market_gbp_m": 7.9,
+    "Maguire_market_gbp_m": 4.7
+  },
+  "recommendation": {
+    "action": "WAIT",
+    "preferred_long_absence_transfer": "Saka to Rogers",
+    "palmer_required_saka_sale_gbp_m": 9.6,
+    "conditional_bank_gbp_m": 0.2,
+    "actual_sale_gbp_m": null,
+    "expected_points": null,
+    "execution": null
+  },
+  "delivery": {
+    "status": "prepared_pending_final",
+    "confirmed": false
+  },
+  "note": "Price correction only. No new verified Saka diagnosis; no inference of owner's sale proceeds."
+}
