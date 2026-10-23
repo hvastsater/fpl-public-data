@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "final",
+  "revision": 1,
+  "created_at_utc": "2026-10-23T15:30:36Z",
+  "entry_id": 6273717,
+  "league_id": 1286090,
+  "predecessor": "agent/decisions/2026-27/gw08/day-before-v001.json",
+  "team_basis": {
+    "file": "agent/decisions/2026-27/gw08/confirmed-team-20261020T0900.json",
+    "observed_at": "2026-10-20T09:00:00+02:00",
+    "FT": 2,
+    "bank_gbp_m": 0.2,
+    "newer_execution": null,
+    "sale_values": null
+  },
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "checked_at_utc": "2026-10-23T15:30:36Z",
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "final_target": "2026-10-23T17:30:00+02:00"
+  },
+  "recommendation": {
+    "action": "CONDITIONAL_SAKA_TO_ROGERS",
+    "out": "Saka",
+    "in": "Rogers",
+    "published_buy_gbp_m": 8,
+    "actual_sale_gbp_m": null,
+    "min_sale_required_gbp_m": 7.8,
+    "bank_after": null,
+    "hit": 0,
+    "executed": null,
+    "expected_points": null,
+    "conditions": [
+      "Baseline unchanged",
+      "Actual transfer preview permits one free transfer with nonnegative bank",
+      "Rogers current buy remains8.0 and no later negative availability news"
+    ],
+    "rationale": "Saka now reported out for Everton, return date still unknown. New DCL foot/minutes doubt reduces cover and increases value of an available midfield starter. Prefer one transfer to preserve flexibility; not a confirmed long-term Saka diagnosis.",
+    "unconditional_GO": false
+  },
+  "team": {
+    "formation": "4-4-2",
+    "starting_xi": [
+      "Verbruggen",
+      "Gabriel",
+      "Calafiori",
+      "Muharemović",
+      "Maguire",
+      "Mbeumo",
+      "Groß",
+      "Xhaka",
+      "Rogers",
+      "Haaland",
+      "João Pedro"
+    ],
+    "bench_order": [
+      "Thiaw",
+      "Calvert-Lewin",
+      "Slater"
+    ],
+    "bench_gk": "Kinsky",
+    "captain": "Haaland",
+    "vice": "Mbeumo",
+    "chip": "none",
+    "selection_reason": "Bench DCL due fresh foot/minutes uncertainty; Maguire has marginal published model edge over Thiaw, not a start guarantee. Thiaw first cover."
+  },
+  "alternatives": [
+    {
+      "id": "ROLL",
+      "hit": 0,
+      "xp": null,
+      "formation": "5-3-2",
+      "starting_xi": [
+        "Verbruggen",
+        "Gabriel",
+        "Calafiori",
+        "Muharemović",
+        "Maguire",
+        "Mbeumo",
+        "Groß",
+        "Xhaka",
+        "Haaland",
+        "João Pedro",
+        "Thiaw"
+      ],
+      "bench_order": [
+        "Calvert-Lewin",
+        "Saka",
+        "Slater"
+      ],
+      "verdict": "Fallback if transfer budget or availability cannot be verified; more defensive and less resilient to further absences."
+    },
+    {
+      "id": "Saka_to_Palmer",
+      "buy": 9.8,
+      "min_sale": 9.6,
+      "hit": 0,
+      "xp": null,
+      "verdict": "Only if actual sale permits; modest one-GW projected edge insufficient to override Rogers flexibility."
+    },
+    {
+      "id": "Saka_to_Tavernier",
+      "buy": 6.2,
+      "min_sale": 6,
+      "hit": 0,
+      "xp": null,
+      "verdict": "Budget alternative; lower immediate published projection."
+    },
+    {
+      "id": "Saka_Xhaka_to_Rogers_Tavernier",
+      "combined_buy": 14.2,
+      "min_combined_sale": 14,
+      "hit": 0,
+      "xp": null,
+      "verdict": "Reject for now; consumes two FT without robust common-horizon gain."
+    }
+  ],
+  "facts": [
+    {
+      "fact": "Reuters23Oct reports Saka will miss Everton, more scans; no established duration.",
+      "source": "https://www.reuters.com/sports/soccer/arsenals-saka-miss-everton-clash-undergo-further-tests-says-arteta-2026-10-23/"
+    },
+    {
+      "fact": "Farke says DCL has bruised foot, missed sessions, availability and minutes uncertain.",
+      "published": "2026-10-23 13:34BST; updated14:13BST",
+      "source": "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-daniel-farke-sunderland-joe-rodon-dan-james-dominic-calvert-lewin-anton-stach-noah-okafor-9304803"
+    },
+    {
+      "fact": "City confirms Haaland100%available; unusedAEKsub.",
+      "published": "2026-10-22 per previous index",
+      "source": "https://www.mancity.com/news/mens/enzo-maresca-aston-villa-away-press-conference-written-63928256"
+    },
+    {
+      "fact": "Chelsea Friday injury summary does not report new Rogers/JP absence; this is not guaranteed starting XI.",
+      "source": "https://www.chelseafc.com/en/news/article/xabi-alonso-confirms-chelsea-team-news-for-tottenham"
+    }
+  ],
+  "models": {
+    "rotowire": {
+      "checked": "2026-10-23T15:30:36Z",
+      "published_update_time": null,
+      "Haaland": 6.59,
+      "Mbeumo": 6.34,
+      "JP": 6.01,
+      "Palmer": 5.76,
+      "Rogers": 5.37,
+      "Maguire": 4.46,
+      "Thiaw": 4.36,
+      "note": "DCL model value4.39 not accepted as current injury-adjusted estimate.",
+      "url": "https://www.rotowire.com/soccer/article/fpl-gameweek-8-rankings-best-players-captain-picks-gw8-142338"
+    },
+    "fplxi": {
+      "published": "2026-10-23 07:00UK",
+      "Mbeumo": 6.6,
+      "Bruno": 10.2,
+      "note": "Does not agree with captain choice; no claimed consensus.",
+      "url": "https://fplxi.com/gameweeks/8"
+    },
+    "statz": {
+      "updated": "2026-10-23",
+      "Haaland": 6.2,
+      "next_five_Rogers": 23.1,
+      "next_five_Palmer": 26.5,
+      "caveat": "Still lists Saka5.3 in captain list despite injury, reducing confidence; no combined package gain computed.",
+      "url": "https://statz.ai/fpl/gameweek/8"
+    }
+  },
+  "chip_eligibility": {
+    "inventory": "agent/CHIPS-2026-27.json",
+    "rules": "https://www.premierleague.com/en/news/4679879/whats-happening-with-fpl-chips-in-202627",
+    "BB": "usedGW1",
+    "TC": "usedGW3",
+    "WC": "available_asofOct20",
+    "FH": "available_asofOct20",
+    "selected": "none"
+  },
+  "contingency": [
+    "No affordable confirmed purchase: ROLL5-3-2 as frozen alternative",
+    "Rogers unexpected negative: no blind switch; use ROLL fallback",
+    "New Haaland negative: MbeumoC, JPVC",
+    "Reliable DCL full starting-minutes clearance before deadline: may start him instead of Maguire in3-4-3; otherwise keep bench",
+    "Never action or issueGO after deadline"
+  ],
+  "horizon_plan": [
+    "GW9 reassess DCL, Saka scan and actual bank; retain secondFT now.",
+    "GW9-12 Chelsea MUH, SunderlandA, LeedsH, ForestA support keeping Rogers beyond singleGW; fixtures from officialclub schedule.",
+    "GW10-12 reassess Xhaka and Mbeumo fixture swing with fresh models; no automatic second transfer or Saka buyback.",
+    "GW13-15 review harder Chelsea fixtures, European rotations elsewhere, and WC need. No fixed chip GW."
+  ],
+  "gaps": [
+    "Actual sale prices and current execution unknown",
+    "No finalized matching-GW rival squads/EO/results; postreview not fabricated",
+    "No complete permitted xG/xA/shots/big-chance dataset or common-horizon full package projections",
+    "No calibrated price probabilities; Statz threshold percentages are not probabilities",
+    "Direct article opens sometimes inaccessible; search-extracted reporting distinguished from club confirmation"
+  ],
+  "validation": {
+    "unique": 15,
+    "positions": {
+      "GK": 2,
+      "DEF": 5,
+      "MID": 5,
+      "FWD": 3
+    },
+    "clubs": {
+      "BHA": 2,
+      "TOT": 1,
+      "ARS": 2,
+      "LEE": 2,
+      "NEW": 1,
+      "MUN": 2,
+      "CHE": 2,
+      "SUN": 1,
+      "HUL": 1,
+      "MCI": 1
+    },
+    "xi": {
+      "GK": 1,
+      "DEF": 4,
+      "MID": 4,
+      "FWD": 2
+    },
+    "all_selected": true,
+    "selection_unique": 15,
+    "budget_verified": false,
+    "offline_agent_audit": "Not run: execution environment unavailable; old raw data unsuitable as current."
+  },
+  "delivery": {
+    "status": "prepared_pending_final_response",
+    "confirmed": false,
+    "push_receipt_verified": false
+  },
+  "improvement": {
+    "attempted": false,
+    "reason": "Final report priority, daily improvement already completed; no infrastructure experiment."
+  }
+}
