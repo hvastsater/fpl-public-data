@@ -23,14 +23,14 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-23 05:29:10 UTC",
+    "checked_at_utc": "2026-10-23 06:32:17 UTC",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "Fresh search found no verified new Saka assessment, scan result or return date. Repeated pending-scan reports and previously logged Times claim do not change the plan. No new user execution confirmation.",
+      "result": "Fresh search again found scan pending/assessment awaited reports, no verified new diagnosis or return date. Previously logged Times duration claim remains unconfirmed. No material plan change; final report target remains15:30UTC.",
       "sources": [
         "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
         "https://roundtable.io/sports/soccer/premier-league/arsenal/news/arsenal-await-bukayo-saka-scan-results-after-injury-scare-against-bayern-munich"
@@ -38,7 +38,7 @@
     },
     "prices": {
       "official_source": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
-      "result": "Official price article freshly reopened still dated22Oct. Prior third-party23Oct changes await corroboration; no new verified change to preferred transfer plan or sale values.",
+      "result": "Fresh official article still dated22Oct. No official23Oct update observed; previously recorded third-party prices remain pending corroboration. No inferred owner sale values.",
       "pending_final_budget_check": "If Palmer9.8 confirmed, minimum Saka sale9.6 with bank0.2. Preferred Rogers branch unchanged.",
       "future_price_probabilities": null
     },
