@@ -23,32 +23,32 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-22 23:33:43 UTC",
+    "checked_at_utc": "2026-10-23 00:30:27 UTC",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "No newly verified Saka scan/return date. Same conditional decision; already delivered reports not repeated.",
+      "result": "Fresh search found waiting-for-scan reports and no verified new diagnosis or recovery date. Previously recorded Times search summary remains unconfirmed.",
       "sources": [
-        "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/"
+        "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
+        "https://roundtable.io/sports/soccer/premier-league/arsenal/video/arsenal-await-bukayo-saka-scan-results-after-injury-scare-against-bayern-munich"
       ]
     },
     "prices": {
-      "source": "https://fpl.page/price-changes",
-      "result": "Third-party history newly labels23Oct: Mbeumo7.9, Palmer9.8 rises; Maguire4.7, Ampadu5.3 falls. Official published history still22Oct; do not call changes officially verified or infer sale values. Other search sources still quote prior prices and forecasts; no immediate action on this discrepancy.",
       "official_source": "https://www.premierleague.com/en/news/2884829/fpl-player-price-changes-risers-fallers-and-top-transfers-for-gameweek-8",
-      "next_step": "Recheck official23Oct prices before final. Palmer alternative requires sale>=9.6 with bank0.2 if buy9.8 confirmed, versus prior9.5 at buy9.7. Main Rogers/WAIT branch unchanged.",
+      "result": "Official published article still22Oct DCL6.1/Palacios5.3. Prior check third-party23Oct Mbeumo7.9,Palmer9.8,Maguire4.7,Ampadu5.3 remains not officially corroborated; do not infer owner sale proceeds.",
+      "pending_final_budget_check": "If Palmer9.8 confirmed, minimum Saka sale9.6 with bank0.2. Preferred Rogers branch unchanged.",
       "future_price_probabilities": null
     },
     "results": {
       "official_finalized_matching_GW_snapshot": null,
-      "post_review": "No permitted matching finalized result snapshot; no fabricated review."
+      "post_review": "Permitted officially checked matching-GW results unavailable."
     },
     "reports_due": false,
-    "notification": "suppress_no_verified_change_to_primary_plan",
-    "improvement": "Oct23 daily improvement already logged; no further attempt.",
+    "notification": "suppress_no_verified_change_to_plan",
+    "improvement": "Oct23 daily work already completed and logged; no second attempt.",
     "execution_confirmation_since_baseline": null
   }
 }
