@@ -23,18 +23,17 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-23 13:36:55 UTC",
+    "checked_at_utc": "2026-10-23T14:34:04Z",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "New23Oct press-conference reports: repeat MRI this afternoon, no timeline, Saka has not trained. Multi-GW absence not confirmed. Direct article opens returned inaccessible; corroborated published search extracts. Record new exception for final response; final phase not yet due.",
+      "result": "Fresh23Oct search repeats already delivered repeat-MRI/no-timeline news; no verified new duration. United management commentary and pundit calls to drop Maguire are opinion, not confirmed selection. No new medical/selection news verified changing plan. Official deadline re-opened unchanged. Final target15:30UTC not yet due.",
       "sources": [
-        "https://www.independent.co.uk/sport/football/bukayo-saka-injury-arsenal-news-update-b3072044.html",
-        "https://thefalse9.com/2026/10/arteta-press-conference-everton-saka.html",
-        "https://paininthearsenal.com/mikel-arteta-latest-bukayo-saka-injury-update-provides-arsenal-fans-with-no-clarity"
+        "https://www.aol.co.uk/articles/mikel-arteta-provides-bukayo-saka-125900000.html",
+        "https://www.premierleague.com/en/news/4744058"
       ]
     },
     "prices": {
@@ -48,8 +47,8 @@
       "post_review": "Permitted officially checked matching-GW results unavailable."
     },
     "reports_due": false,
-    "notification": "prepare_saka_repeat_mri_exception",
-    "improvement": "Oct23 daily work already completed and logged; no second attempt.",
+    "notification": "suppress_no_new_material_change",
+    "improvement": "Already completed Oct23; no experiment within three hours of deadline.",
     "execution_confirmation_since_baseline": null
   },
   "pending_price_correction": {
@@ -64,8 +63,10 @@
   "pending_saka_repeat_mri_alert": {
     "event_key": "saka-repeat-mri-no-timeline-20261023",
     "decision_file": "agent/decisions/2026-27/gw08/saka-repeat-mri-20261023-v001.json",
-    "status": "prepared_for_final_response",
-    "confirmed": false,
-    "push_receipt_verified": false
+    "status": "final_response_present_in_chat_history",
+    "confirmed": true,
+    "push_receipt_verified": false,
+    "evidence": "Own preceding final begins Saka-uppdatering, 23 oktober; same full text supplied as external conversation message21. Text presence confirmed; push receipt unverified.",
+    "confirmed_at_utc": "2026-10-23T14:34:04Z"
   }
 }
