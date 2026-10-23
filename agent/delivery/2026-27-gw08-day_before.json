@@ -23,17 +23,18 @@
   "confirmed_at_utc": "2026-10-22T18:32:10Z",
   "evidence": "Own preceding assistant final begins 'GW8 – dagen innan, 22 oktober', includes XI, Saka alternatives and decision-file link. Full same final also supplied as external conversation message 26. This confirms text presence, not push receipt.",
   "latest_light_check": {
-    "checked_at_utc": "2026-10-23 12:35:34 UTC",
+    "checked_at_utc": "2026-10-23 13:36:55 UTC",
     "official_deadline_url": "https://www.premierleague.com/en/news/4744058",
     "official_article_published": "2026-10-21",
     "deadline_utc": "2026-10-23T17:30:00Z",
     "deadline_europe_stockholm": "2026-10-23T19:30:00+02:00",
     "next_final_target_europe_stockholm": "2026-10-23T17:30:00+02:00",
     "news": {
-      "result": "Fresh Saka and Haaland searches found no verified new assessment changing the plan: Saka scan duration remains unconfirmed, Haaland availability reports repeat22Oct news. Final target15:30UTC not due. No new execution confirmation.",
+      "result": "New23Oct press-conference reports: repeat MRI this afternoon, no timeline, Saka has not trained. Multi-GW absence not confirmed. Direct article opens returned inaccessible; corroborated published search extracts. Record new exception for final response; final phase not yet due.",
       "sources": [
-        "https://www.reuters.com/sports/soccer/saka-injury-doesnt-look-good-says-arsenal-manager-arteta-2026-10-22/",
-        "https://roundtable.io/sports/soccer/premier-league/arsenal/news/arsenal-await-bukayo-saka-scan-results-after-injury-scare-against-bayern-munich"
+        "https://www.independent.co.uk/sport/football/bukayo-saka-injury-arsenal-news-update-b3072044.html",
+        "https://thefalse9.com/2026/10/arteta-press-conference-everton-saka.html",
+        "https://paininthearsenal.com/mikel-arteta-latest-bukayo-saka-injury-update-provides-arsenal-fans-with-no-clarity"
       ]
     },
     "prices": {
@@ -47,7 +48,7 @@
       "post_review": "Permitted officially checked matching-GW results unavailable."
     },
     "reports_due": false,
-    "notification": "suppress_no_new_material_change_price_correction_already_present",
+    "notification": "prepare_saka_repeat_mri_exception",
     "improvement": "Oct23 daily work already completed and logged; no second attempt.",
     "execution_confirmation_since_baseline": null
   },
@@ -59,5 +60,12 @@
     "push_receipt_verified": false,
     "evidence": "Own prior final begins 'Budgetkorrigering inför GW8' and explicitly corrects Palmer9.8/Saka sale minimum9.6; same final supplied as external message25.",
     "confirmed_at_utc": "2026-10-23 09:31:16 UTC"
+  },
+  "pending_saka_repeat_mri_alert": {
+    "event_key": "saka-repeat-mri-no-timeline-20261023",
+    "decision_file": "agent/decisions/2026-27/gw08/saka-repeat-mri-20261023-v001.json",
+    "status": "prepared_for_final_response",
+    "confirmed": false,
+    "push_receipt_verified": false
   }
 }
