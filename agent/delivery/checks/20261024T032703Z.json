@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-24T03:27:03Z",
+  "checked_at_stockholm": "2026-10-24T05:27:03+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "official_verification": false,
+    "utc": null,
+    "stockholm": null,
+    "attempted_url": "https://fantasy.premierleague.com/en/help/rules",
+    "result": "0 readable lines"
+  },
+  "results": {
+    "attempted_url": "https://www.premierleague.com/en/matchweek/2026_8/blog",
+    "result": "Page returned navigation/footer only; no usable current score or finalization evidence",
+    "official_finalized_points": null,
+    "postreview_ready": false
+  },
+  "last_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution": null,
+  "report_due": false,
+  "reason": "No complete GW8 finalized results. Completed status and pre-deadline phases visible in supplied conversation; do not repeat.",
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct execution checkpoint already recorded.",
+  "report_sent": false,
+  "automation_changed": false
+}
