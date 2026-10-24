@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-24T04:34:22Z",
+  "checked_at_stockholm": "2026-10-24T06:34:22+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "official_verification": false,
+    "utc": null,
+    "stockholm": null,
+    "reason": "Official snippets show31Oct04:00 local with unspecified timezone; cannot safely convert. Third-party11GMT claim not treated as official."
+  },
+  "last_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution": null,
+  "postreview_ready": false,
+  "official_finalized_points": null,
+  "reason": "Weekend GW8 fixtures remain; no postreview due. Requested status and all GW8 pre-deadline reports already visible in supplied history.",
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct execution checkpoint already recorded.",
+  "report_sent": false,
+  "automation_changed": false
+}
