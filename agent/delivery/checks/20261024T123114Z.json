@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-24T12:31:14Z",
+  "checked_at_europe_stockholm": "2026-10-24T14:31:14+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "passed": true
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "verified": false,
+    "utc": null,
+    "europe_stockholm": null,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "reason": "Zero readable lines. Indexed official04:00local lacks timezone; third-party11:00GMT not adopted as official."
+  },
+  "latest_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution_confirmed": null,
+  "current_bank": null,
+  "current_FT": null,
+  "official_finalized_points": null,
+  "postreview_due": false,
+  "result_check": {
+    "url": "https://www.premierleague.com/en/matchweek/2026_8/blog",
+    "result": "Navigation/footer only, no official finalization; weekendGW incomplete."
+  },
+  "dedup": {
+    "requested_status": "status-deadline-20261021-retry1 already visible in supplied chat message6",
+    "weekly": "Delivered21Oct",
+    "day_before": "Supplied message8",
+    "final": "Supplied messages11,14,16 with Palmer correction"
+  },
+  "news": {
+    "material_plan_change_identified": false,
+    "note": "Reuters23Oct and Guardian possible six-week absence repeat known Saka news; no confirmed recovery timeline or new plan change."
+  },
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct daily attempt already recorded",
+  "report_sent": false,
+  "reason": "No due undelivered phase or new material plan change.",
+  "automation_changed": false
+}
