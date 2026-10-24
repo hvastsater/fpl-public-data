@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-24T23:28:35Z",
+  "checked_at_stockholm": "2026-10-25T01:28:35+02:00",
+  "team_basis": "agent/decisions/2026-27/gw08/execution-checkpoint-20261024-v002.json",
+  "prior_delivery_check": "20261024T223015Z.json",
+  "requested_status_already_complete": true,
+  "news": {
+    "material_change_found": false,
+    "Pedro": "Known training injury, no newly verified tests/return date.",
+    "DCL": "Known foot doubt, no new official clearance.",
+    "Palmer": "Cup suspension hold advice already delivered."
+  },
+  "deadline": {
+    "gameweek": 9,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "verified": false,
+    "result": "No readable official deadline; secondary31Oct11UK not used as official verification.",
+    "utc": null,
+    "stockholm": null
+  },
+  "reports": {
+    "due": false,
+    "postreview": "GW8 ongoing; Sunday25Octfixtures remain; final checked points null.",
+    "forecast": "No forecast window due under corroborated31Octplan; exact official deadline unresolved."
+  },
+  "improvement": {
+    "attempted": false,
+    "reason": "25Octdaily reconciliation already completed and verified in IMPROVEMENTS.json."
+  },
+  "action": "WAIT; no duplicate notification",
+  "automation_changed": false
+}
