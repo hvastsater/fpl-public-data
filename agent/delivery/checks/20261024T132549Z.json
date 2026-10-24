@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-24T13:25:49Z",
+  "checked_at_europe_stockholm": "2026-10-24T15:25:49+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "passed": true
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "verified": false,
+    "utc": null,
+    "europe_stockholm": null,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "reason": "Direct0lines; indexed04:00local lacks explicit timezone; remaining official search results mainly2025/26 rejected."
+  },
+  "latest_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution_confirmed": null,
+  "current_bank": null,
+  "current_FT": null,
+  "official_finalized_points": null,
+  "postreview_due": false,
+  "result_check": {
+    "url": "https://www.premierleague.com/en/matchweek/2026_8/blog",
+    "result": "Navigation/footer only, no official finalization evidence."
+  },
+  "dedup": {
+    "requested_status": "status-deadline-20261021-retry1 visible supplied chat message6",
+    "weekly": "Delivered21Oct",
+    "day_before": "Supplied message8",
+    "final": "Supplied messages11,14,16 include Palmer correction"
+  },
+  "news": {
+    "material_plan_change_identified": false,
+    "note": "Secondary6-8weekSaka headline found; no newly verified primary recovery timeline. ExistingSaka-sale recommendation unchanged, no repeat alert.",
+    "leads": [
+      "https://dailycannon.com/2026/10/saka-injury-timeline-arsenal/",
+      "https://www.skysports.com/football/news/13602180/how-will-arsenal-cope-without-injured-bukayo-saka-noni-madueke-and-max-dowman-in-frame-for-more-minutes"
+    ]
+  },
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct attempt already recorded",
+  "report_sent": false,
+  "reason": "No due undelivered phase or verified material plan change.",
+  "automation_changed": false
+}
