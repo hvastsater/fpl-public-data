@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "material_news",
+  "revision": 2,
+  "predecessor": "news-joao-pedro-absence-20261024-v001.json",
+  "checked_at_utc": "2026-10-24T18:26:00Z",
+  "news_event_key": "2026-27-joao-pedro-training-injury-tests-20261024",
+  "source": {
+    "url": "https://www.chelseafc.com/en/news/article/alonso-explains-joao-pedro-absence-and-penders-and-quenda-selections",
+    "publication_date": "2026-10-24",
+    "access": "Full official article opened successfully this run"
+  },
+  "new_fact": "Alonso confirms Pedro felt something in training23Oct; fluid around injury; further tests required to assess extent.",
+  "return_date": null,
+  "diagnosis": null,
+  "recommendation": "WAIT beforeGW9 transfer; do not treat absence as mere rotation or assume lengthy layoff. Medical results may change transfer priority ahead of Xhaka upgrade.",
+  "executed_transfer": null,
+  "xP": null,
+  "actual_team_basis": "execution-checkpoint-20261024-v002.json",
+  "gw8_autosub": "Xhaka first eligible bench player if he plays; final outcome unresolved",
+  "gw9_deadline": {
+    "official_verified": false,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "result": "Zero readable lines",
+    "utc": null,
+    "stockholm": null
+  },
+  "postreview_due": false,
+  "postreview_reason": "GW8 still underway; Leeds Sunday25Oct fixture not completed",
+  "requested_status": "Already completed per delivery record21Oct; no resend",
+  "delivery": {
+    "status": "prepared_pending_final",
+    "confirmed": false
+  },
+  "improvement_attempted": false,
+  "automation_changed": false
+}
