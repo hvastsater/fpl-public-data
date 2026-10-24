@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-24T11:33:46Z",
+  "checked_at_europe_stockholm": "2026-10-24T13:33:46+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "passed": true
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "verified": false,
+    "utc": null,
+    "europe_stockholm": null,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "reason": "Direct page returned zero readable lines; no new explicit official2026/27 Classic deadline found."
+  },
+  "latest_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution_confirmed": null,
+  "current_bank": null,
+  "current_FT": null,
+  "official_finalized_points": null,
+  "postreview_due": false,
+  "result_check": {
+    "url": "https://www.premierleague.com/en/matchweek/2026_8/blog",
+    "result": "Navigation/footer only, no finalization evidence; weekendGW not treated as complete."
+  },
+  "dedup": {
+    "requested_status": "status-deadline-20261021-retry1 already visible in supplied chat message6",
+    "weekly": "Previously delivered21Oct",
+    "day_before": "Supplied message8",
+    "final": "Supplied messages11,14,16 including Palmer correction"
+  },
+  "news": {
+    "material_plan_change_identified": false,
+    "note": "Search returned known predeadlineSaka/DCL issues and stale/mismatched results, no new verified plan-changing item.",
+    "source_conflict": "Older Palmer/Saka/Isak article indexed20:00BST GW8 conflicts with newer explicit21Oct18:30BST; no retrospectiveGO or changed passed deadline adopted."
+  },
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct daily attempt already recorded",
+  "report_sent": false,
+  "reason": "No due undelivered report or new material change.",
+  "automation_changed": false
+}
