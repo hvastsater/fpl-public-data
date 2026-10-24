@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-24T08:34:03Z",
+  "checked_at_europe_stockholm": "2026-10-24T10:34:03+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "passed": true
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "verified": false,
+    "utc": null,
+    "europe_stockholm": null,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "reason": "Classic FPL page returned zero readable lines. Third-party11:00GMT corroboration not substituted for official Classic deadline. Official Draft snippet04:00PDT concerns different game and not adopted."
+  },
+  "latest_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution_confirmed": null,
+  "current_bank": null,
+  "current_FT": null,
+  "official_finalized_points": null,
+  "postreview_due": false,
+  "result_check": {
+    "url": "https://www.premierleague.com/en/matchweek/2026_8/blog",
+    "result": "Only navigation/footer readable; no finalized points evidence. GW8 weekend incomplete."
+  },
+  "dedup": {
+    "requested_status": "status-deadline-20261021-retry1 visibly present in supplied chat message6",
+    "weekly": "Already delivered21Oct",
+    "day_before": "Supplied message8",
+    "final": "Supplied messages11,14,16 including Palmer correction"
+  },
+  "news": {
+    "material_plan_change_identified": false,
+    "note": "Saka scan/absence reports repeat known23Oct news, no verified duration change. No new action justified."
+  },
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct daily attempt already recorded",
+  "report_sent": false,
+  "reason": "No new material change or due undelivered phase.",
+  "automation_changed": false
+}
