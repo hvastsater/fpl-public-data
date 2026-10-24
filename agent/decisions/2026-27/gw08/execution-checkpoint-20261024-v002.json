@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "entry_id": 6273717,
+  "recorded_at_utc": "2026-10-24T17:27:04Z",
+  "predecessor": "execution-checkpoint-20261024-v001.json",
+  "source": "Newer user-supplied external conversation: user image, assistant transcription, followed by user explicit explanation of deliberately starting DCL. Original image not independently re-inspected this run.",
+  "execution": {
+    "status": "confirmed_by_supplied_conversation",
+    "confirmed_transfers": [
+      {
+        "out": "Saka",
+        "in": "Palmer",
+        "sale_price": null,
+        "buy_price": null
+      }
+    ],
+    "formation": "4-3-3",
+    "actual_starting_xi": [
+      "Verbruggen",
+      "Gabriel",
+      "Calafiori",
+      "Muharemović",
+      "Maguire",
+      "Palmer",
+      "Mbeumo",
+      "Groß",
+      "Haaland",
+      "João Pedro",
+      "Calvert-Lewin"
+    ],
+    "actual_bench": [
+      "Xhaka",
+      "Thiaw",
+      "Slater"
+    ],
+    "actual_bench_gk": "Kinsky",
+    "actual_captain": "Haaland",
+    "actual_vice": "Mbeumo",
+    "actual_chip": null,
+    "post_deadline_bank": null,
+    "next_gameweek_free_transfers": null
+  },
+  "notes": [
+    "Supersedes prior unknown execution with newly supplied conversation evidence; do not evaluate recommended Xhaka start as actual.",
+    "Transfer preview earlier showed zero remaining bank, but no exact executed sale/bank screen is available in this run.",
+    "33 displayed points were an ongoing total, not final.",
+    "User intentionally chose DCL upside; assess expected minutes and cameo risk before outcome, not retrospectively."
+  ],
+  "autosubs": {
+    "Joao_Pedro": "Official Chelsea lineup confirms absent. Xhaka first eligible cover if he plays; final autosubs not yet resolved.",
+    "resolved": null
+  },
+  "evaluation": {
+    "finalized_points": null,
+    "rival_scores": null,
+    "expected_points": null
+  },
+  "validation": {
+    "unique_players": 15,
+    "positions": "2GK/5DEF/5MID/3FWD",
+    "xi": "1GK/4DEF/3MID/3FWD",
+    "legal": true
+  },
+  "delivery": "Actual lineup already acknowledged in supplied conversation; no duplicate notification required."
+}
