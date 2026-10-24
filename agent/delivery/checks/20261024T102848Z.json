@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-24T10:28:48Z",
+  "checked_at_europe_stockholm": "2026-10-24T12:28:48+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "url": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "europe_stockholm": "2026-10-23T19:30:00+02:00",
+    "passed": true
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "verified": false,
+    "utc": null,
+    "europe_stockholm": null,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "reason": "Direct page zero readable lines; official indexed snippets04:00 local with unknown timezone, no conversion assumed."
+  },
+  "latest_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution_confirmed": null,
+  "current_bank": null,
+  "current_FT": null,
+  "official_finalized_points": null,
+  "postreview_due": false,
+  "result_check": {
+    "url": "https://www.premierleague.com/en/matchweek/2026_8/blog",
+    "result": "Navigation/footer only; no finalized points evidence.",
+    "official_rule_lead": {
+      "url": "https://www.premierleague.com/en/news/4679873/all-you-need-to-know-about-changes-to-fpl-for-202627",
+      "published": "2026-07-31",
+      "search_excerpt": "Lockdown now09:00UK day after finalGWmatch; requires validation alongside actual results, not proof currentGWfinalized."
+    }
+  },
+  "dedup": {
+    "requested_status": "status-deadline-20261021-retry1 visibly present in supplied chat message6",
+    "weekly": "Already delivered21Oct",
+    "day_before": "Supplied message8",
+    "final": "Supplied messages11,14,16 including Palmer correction"
+  },
+  "news": {
+    "material_plan_change_identified": false,
+    "note": "Secondary preview mentions six-eight-week Saka reports but explicitly lacks final timeline. No new primary diagnosis verified, existing sell recommendation unchanged."
+  },
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct daily attempt already recorded",
+  "report_sent": false,
+  "reason": "No due undelivered phase or material plan change.",
+  "automation_changed": false
+}
