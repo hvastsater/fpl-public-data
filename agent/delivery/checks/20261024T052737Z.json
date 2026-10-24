@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-10-24T05:27:37Z",
+  "checked_at_stockholm": "2026-10-24T07:27:37+02:00",
+  "season": "2026-27",
+  "gameweek": 8,
+  "deadline": {
+    "source": "https://www.premierleague.com/en/news/4744058",
+    "publication_date": "2026-10-21",
+    "verified_this_run": true,
+    "utc": "2026-10-23T17:30:00Z",
+    "stockholm": "2026-10-23T19:30:00+02:00"
+  },
+  "next_deadline": {
+    "gameweek": 9,
+    "official_verification": false,
+    "utc": null,
+    "stockholm": null
+  },
+  "price_lead": {
+    "source": "https://www.fantasyfootballfix.com/blog-index/fpl-price-changes-24-oct/",
+    "publication_date": "2026-10-24",
+    "summary": "Headline reports Saka price fall; exact amount and official corroboration not read. No predicted future price risk adopted.",
+    "plan_change": false,
+    "reason": "Latest advice already Saka toPalmer; execution unknown, no current affordability recalculated."
+  },
+  "last_decision": "agent/decisions/2026-27/gw08/final-v002.json",
+  "execution": null,
+  "postreview_ready": false,
+  "official_finalized_points": null,
+  "report_due": false,
+  "reason": "GW8 incomplete. Requested status and pre-deadline reports already visible; no new plan-changing finding established.",
+  "improvement_attempted": false,
+  "improvement_reason": "24Oct execution checkpoint already recorded.",
+  "report_sent": false,
+  "automation_changed": false
+}
