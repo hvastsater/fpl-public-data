@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-24T17:27:04Z",
+  "requested_status": {
+    "id": "status-deadline-20261021-retry1",
+    "already_delivered": true,
+    "evidence": "agent/delivery/2026-27-gw08-requested_status-status-deadline-20261021-retry1.json records marked final present 21 October"
+  },
+  "gw8": {
+    "deadline_utc": "2026-10-23T17:30:00Z",
+    "deadline_stockholm": "2026-10-23T19:30:00+02:00",
+    "official_source": "https://www.premierleague.com/en/news/4744058",
+    "source_read_this_run": true,
+    "postreview_due": false,
+    "reason": "GW8 not finished; Leeds official23Octpreview states Sunderland match Sunday25Oct; no officially checked final points."
+  },
+  "gw9": {
+    "official_verified": false,
+    "official_url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "access_result": "Zero readable lines",
+    "deadline_utc": null,
+    "deadline_stockholm": null,
+    "secondary_only": "FPLXI24Oct and FFIQ24Oct state31Oct11:00UK; not substituted for official verification",
+    "report_due": false
+  },
+  "news": {
+    "Palmer": "Official Chelsea24Octlineup confirms starts.",
+    "Joao_Pedro": "Absence repeats already delivered alert; cause/timeline not verified.",
+    "DCL": "Official Leeds23Octfitness report repeats known bruised foot and uncertainty, no new clearance."
+  },
+  "action": "WAIT; no new plan-changing news; no duplicate report",
+  "execution_record": "execution-checkpoint-20261024-v002.json",
+  "new_improvement_attempt": false,
+  "reason": "24Oct daily improvement already logged; this run only records newer team confirmation.",
+  "automation_changed": false
+}
