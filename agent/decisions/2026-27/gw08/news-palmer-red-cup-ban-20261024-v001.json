@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 8,
+  "phase": "material_news",
+  "news_event_key": "2026-27-palmer-red-cup-ban-20261024",
+  "checked_at_utc": "2026-10-24T20:27:33Z",
+  "source": {
+    "url": "https://www.premierleague.com/en/news/4425344/which-players-are-suspended-or-close-to-a-ban-in-fantasy",
+    "publication_date": "2026-10-24",
+    "access": "Read official article lines49: explicit Palmer-specific suspension outcome."
+  },
+  "facts": [
+    "Palmer received two bookings and was sent off against Spurs.",
+    "Official PremierLeague editorial confirms automatic one-match ban served versusLiverpool in EFL Cup Wednesday28Oct, not PremierLeague."
+  ],
+  "recommendation": "HOLD Palmer; do not sell solely for this red card. Continue awaiting JoaoPedro tests and DCL fitness before deciding GW9 transfers.",
+  "actual_team_basis": "execution-checkpoint-20261024-v002.json",
+  "executed": null,
+  "xP": null,
+  "bank": null,
+  "FT": null,
+  "gw9_deadline": {
+    "official_url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "result": "Zero readablelines",
+    "verified": false,
+    "utc": null,
+    "stockholm": null
+  },
+  "gw8_review": {
+    "due": false,
+    "official_final_points": null,
+    "reason": "Sunday fixtures remain; no finalized review."
+  },
+  "delivery": {
+    "status": "prepared_pending_final",
+    "confirmed": false
+  },
+  "improvement_attempted": false,
+  "automation_changed": false
+}
