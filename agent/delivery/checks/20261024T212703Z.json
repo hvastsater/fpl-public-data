@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-24T21:27:03Z",
+  "checked_at_stockholm": "2026-10-24T23:27:03+02:00",
+  "team_basis": "agent/decisions/2026-27/gw08/execution-checkpoint-20261024-v002.json",
+  "latest_decision": "agent/decisions/2026-27/gw08/news-palmer-red-cup-ban-20261024-v001.json",
+  "delivery_confirmed": {
+    "event": "2026-27-palmer-red-cup-ban-20261024",
+    "evidence": "Previous own final and external supplied assistant15 confirm user-visible report.",
+    "push_receipt_verified": false
+  },
+  "requested_status_already_complete": true,
+  "deadline": {
+    "gw": 9,
+    "url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "checked_this_run": true,
+    "official_verified": false,
+    "utc": null,
+    "stockholm": null,
+    "access": "Open yields no readable content; official search snippet says31Oct04:00 local with unknown timezone; cannot convert.",
+    "secondary_only": "OneFPL says31Oct11:00GMT; not substituted for official verification",
+    "report_due": false
+  },
+  "results": {
+    "gw8_complete": false,
+    "final_points": null,
+    "reason": "Sunday25Oct Leeds fixture remains; no postreview."
+  },
+  "news": {
+    "material_change": false,
+    "Pedro": "Repeats training injury awaiting tests; no new diagnosis/return verified.",
+    "DCL": "Official23Octfitness news remains latest; no new clearance.",
+    "Palmer": "Cup-ban explanation already delivered; retain."
+  },
+  "action": "WAIT; no duplicate notification",
+  "improvement_attempted": false,
+  "improvement_reason": "Daily24Octattempt already recorded; no second daily attempt",
+  "automation_changed": false
+}
