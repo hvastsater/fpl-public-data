@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-24T19:30:39Z",
+  "checked_at_stockholm": "2026-10-24T21:30:39+02:00",
+  "runbook_sha": "ffebf09f0a6355258bc790b3616c9130eaba9526",
+  "team_basis": "agent/decisions/2026-27/gw08/execution-checkpoint-20261024-v002.json",
+  "latest_recommendation": "agent/decisions/2026-27/gw08/news-joao-pedro-absence-20261024-v002.json",
+  "delivery_confirmed": {
+    "event": "2026-27-joao-pedro-training-injury-tests-20261024",
+    "evidence": "Previous final response in own history and external supplied assistant message15 contains injury/tests report.",
+    "push_receipt_verified": false
+  },
+  "requested_status": {
+    "already_complete": true,
+    "evidence": "Prior21Octdelivery record, verified in earlier run; no resend"
+  },
+  "deadline": {
+    "gameweek": 9,
+    "official_url": "https://fantasy.premierleague.com/en/fixtures/9",
+    "official_verified": false,
+    "result": "Zero readable lines",
+    "utc": null,
+    "europe_stockholm": null,
+    "secondary_only": "TwentyClubs31Oct11:00UK; not used as official deadline",
+    "report_due": false
+  },
+  "results": {
+    "gw8_complete": false,
+    "official_checked_points": null,
+    "reason": "Sunderland-Leeds Sunday25Oct still upcoming; no postreview yet."
+  },
+  "news": {
+    "material_change_found": false,
+    "Joao_Pedro": "Known training injury/testing reports repeated; no newly verified return date.",
+    "DCL": "Known foot doubt repeated; media interpretation is not official clearance.",
+    "official_injury_index": "https://www.premierleague.com/en/news/4450606/latest-premier-league-player-injuries-club-by-club-news",
+    "index_limitation": "Page last updated20:15BST24Oct but KeyInjuryNews body not readable; no recovery inferred."
+  },
+  "improvement": {
+    "attempted": false,
+    "reason": "Daily24Octattempt already recorded in IMPROVEMENTS; no second attempt."
+  },
+  "action": "WAIT; no user notification",
+  "automation_changed": false
+}
